@@ -1,4 +1,4 @@
-:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/3_2x0k5j6x5cd.css","style"]
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/0vjlvlcylhqcm.css","style"]
 :HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/GeistMono_Variable.p.2vtemngyy8z-u.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/Geist_Variable-s.p.43azbxi7zpibd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/instrument_serif_italic-s.p.1bk2-9tco4m7m.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -7,4 +7,4 @@
 3:[["children",{"s":{"n":"slug","t":"d","k":"mysql-database-practice","s":[]},"h":96,"c":"$Q4"}]]
 2:[["children",{"s":"projects","h":64,"c":"$Q3"}]]
 1:[["children",{"s":"(site)","h":32,"c":"$Q2"}]]
-0:{"b":"o7iHH3gt76b96c8z2wnqk","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"7i7eLJMqLlMW42bXQtZwv","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
