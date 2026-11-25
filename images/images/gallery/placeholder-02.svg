@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Karya seni gambar contoh abstrak 02">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04100F"/><stop offset="1" stop-color="#08201D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.32"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A7F3D0" stop-opacity="0.16"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0.02"/>
+    </linearGradient>
+    
+  <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+  </filter>
+  <filter id="blurXL" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="120"/>
+  </filter>
+  <filter id="blurM" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="42"/>
+  </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" fill="url(#glow)"/>
+  <ellipse cx="210" cy="108" rx="560" ry="270" fill="#5EEAD4" fill-opacity="0.08" filter="url(#blurXL)"/>
+  <g><line x1="117" y1="0" x2="117" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="234" y1="0" x2="234" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="351" y1="0" x2="351" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="468" y1="0" x2="468" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="585" y1="0" x2="585" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="702" y1="0" x2="702" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="819" y1="0" x2="819" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="936" y1="0" x2="936" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="1053" y1="0" x2="1053" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="1170" y1="0" x2="1170" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="1287" y1="0" x2="1287" y2="900" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="117" x2="1400" y2="117" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="234" x2="1400" y2="234" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="351" x2="1400" y2="351" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="468" x2="1400" y2="468" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="585" x2="1400" y2="585" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="702" x2="1400" y2="702" stroke="#A7F3D0" stroke-opacity="0.09"/><line x1="0" y1="819" x2="1400" y2="819" stroke="#A7F3D0" stroke-opacity="0.09"/></g>
+  <g>
+    <rect x="98.00000000000001" y="108" width="1204" height="684" rx="18" fill="none" stroke="#5EEAD4" stroke-opacity="0.28"/>
+    <line x1="98.00000000000001" y1="198" x2="1302" y2="198" stroke="#5EEAD4" stroke-opacity="0.24"/>
+    <circle cx="147" cy="153" r="4" fill="#5EEAD4"/><circle cx="175" cy="153" r="4" fill="#A7F3D0" fill-opacity="0.5"/>
+    <rect x="168" y="180" width="896.5957845174707" height="21.6" rx="10.8" fill="#5EEAD4" fill-opacity="0.4780530964955688"/><rect x="168" y="256.5" width="490.61793517647317" height="21.6" rx="10.8" fill="#A7F3D0" fill-opacity="0.39588642633520066"/><rect x="168" y="333" width="402.89422229025513" height="21.6" rx="10.8" fill="#A7F3D0" fill-opacity="0.20237258943263442"/><rect x="168" y="409.5" width="454.063679360319" height="21.6" rx="10.8" fill="#5EEAD4" fill-opacity="0.18705411611590536"/><rect x="168" y="486" width="668.7343251528218" height="21.6" rx="10.8" fill="#A7F3D0" fill-opacity="0.35191723437979816"/><rect x="168" y="562.5" width="486.00333503773436" height="21.6" rx="10.8" fill="#A7F3D0" fill-opacity="0.28065943986177444"/><rect x="168" y="639" width="819.811510148924" height="21.6" rx="10.8" fill="#5EEAD4" fill-opacity="0.22860961837228388"/><circle cx="1039.667908784002" cy="404.9386959336698" r="5.023617632454261" fill="#5EEAD4" fill-opacity="0.34924539397470655"/><circle cx="1182.2791577521712" cy="385.0040944945067" r="2.6885730014182627" fill="#5EEAD4" fill-opacity="0.3646964459214359"/><circle cx="1124.4469073247164" cy="719.0731032472104" r="4.106832791352645" fill="#5EEAD4" fill-opacity="0.632257290976122"/><circle cx="1035.5872204918414" cy="406.76438483409584" r="6.208193399710581" fill="#5EEAD4" fill-opacity="0.3308602379634976"/><circle cx="1193.6961489841342" cy="409.55743559170514" r="2.2806953345425427" fill="#5EEAD4" fill-opacity="0.631958524743095"/><circle cx="1197.2771068774164" cy="353.76856436021626" r="1.808316582813859" fill="#5EEAD4" fill-opacity="0.6263879746198654"/><circle cx="1077.6928636729717" cy="533.8605764927343" r="4.826849230797961" fill="#5EEAD4" fill-opacity="0.5400375304743648"/><circle cx="1271.0361650325358" cy="405.6000610347837" r="1.5029412179719657" fill="#5EEAD4" fill-opacity="0.2166244128718972"/><circle cx="1215.6686676312238" cy="547.3660255176947" r="4.538357706973329" fill="#5EEAD4" fill-opacity="0.45784054244868455"/><circle cx="1286.8123786821961" cy="571.8297066958621" r="4.047279441496357" fill="#5EEAD4" fill-opacity="0.26076905471272765"/><circle cx="1024.6173751931638" cy="485.6509185768664" r="5.882392413681373" fill="#5EEAD4" fill-opacity="0.2005047700367868"/><circle cx="1111.6770367994905" cy="629.977087941952" r="2.9069664292037487" fill="#5EEAD4" fill-opacity="0.6837903330568225"/><circle cx="1034.673617279157" cy="386.0103689599782" r="4.045237665763125" fill="#5EEAD4" fill-opacity="0.3053383325692266"/><circle cx="1119.4959696680307" cy="399.1769521404058" r="4.658149316441268" fill="#5EEAD4" fill-opacity="0.7289113850332797"/><circle cx="1015.4635319318622" cy="326.4557128585875" r="5.277630152180791" fill="#5EEAD4" fill-opacity="0.6702032606117427"/><circle cx="1140.9324604477733" cy="380.3495316300541" r="6.224226366961375" fill="#5EEAD4" fill-opacity="0.30388668361119925"/><circle cx="1281.5868573747575" cy="583.091268776916" r="3.8326644231565297" fill="#5EEAD4" fill-opacity="0.1676643103826791"/><circle cx="1172.085058066994" cy="368.11011602170765" r="4.208605391671881" fill="#5EEAD4" fill-opacity="0.4263024562038481"/>
+    <path d="M 168 702 C 420 504.00000000000006, 700 810, 1204 378" fill="none" stroke="#5EEAD4" stroke-opacity="0.7" stroke-width="2"/>
+    <circle cx="1204" cy="378" r="7" fill="#5EEAD4"/>
+    <text x="168" y="288" font-family="ui-monospace, monospace" font-size="21" letter-spacing="5" fill="#A7F3D0" fill-opacity="0.55">SINYAL / 02</text>
+  </g>
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" fill="#A7F3D0" fill-opacity="0.55">
+    <text x="84" y="63.00000000000001" font-size="15.399999999999999" letter-spacing="6">VALLOZZA / ARSIP VISUAL</text>
+    <text x="1316" y="63.00000000000001" text-anchor="end" font-size="15.399999999999999" letter-spacing="4">GAMBAR CONTOH 02</text>
+    <text x="1316" y="859.5" text-anchor="end" font-size="14" letter-spacing="4">TEKNOLOGI / RUANG KERJA</text>
+  </g>
+  <rect x="28" y="18" width="1344" height="864" fill="none" stroke="#A7F3D0" stroke-opacity="0.12"/>
+  <rect width="1400" height="900" filter="url(#grain)" opacity="0.55"/>
+</svg>

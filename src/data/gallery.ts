@@ -1,4 +1,5 @@
 import type { GalleryCategory, GalleryItem } from "@/types";
+import { asset } from "@/lib/assets";
 
 export const galleryCategories: GalleryCategory[] = [
   "Personal",
@@ -35,7 +36,7 @@ export const galleryCategoryLabels: Record<GalleryCategory, string> = {
 export const localGallery: GalleryItem[] = [
   {
     id: "portrait-cyber-security",
-    src: "/images/portrait/vallozza.png",
+    src: asset("/images/portrait/vallozza.png"),
     alt: "Muhammad Vallozza Vito berdiri di depan latar acara Cyber Security bertema maskot gajah",
     caption: "Foto diri di acara Cyber Security",
     category: "Personal",
@@ -48,7 +49,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "certificate-pcr-hack-battle-2024",
-    src: "/images/achievements/pcr-hack-battle-2024-juara-3.jpg",
+    src: asset("/images/achievements/pcr-hack-battle-2024-juara-3.jpg"),
     alt: "Sertifikat Juara III PCR HACK BATTLE 2024 atas nama M. Vallozza Vito",
     caption: "Sertifikat Juara III PCR HACK BATTLE 2024",
     category: "Achievements",
@@ -61,7 +62,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "certificate-lks-provinsi-riau-2024",
-    src: "/images/achievements/lks-provinsi-riau-2024-juara-1.jpg",
+    src: asset("/images/achievements/lks-provinsi-riau-2024-juara-1.jpg"),
     alt: "Sertifikat Juara I LKS Tingkat Provinsi Riau 2024 bidang Teknologi Keamanan Siber atas nama M. Vallozza Vito",
     caption: "Sertifikat Juara I LKS Provinsi Riau 2024",
     category: "Achievements",
@@ -74,7 +75,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "badge-cisco-computer-hardware-basics",
-    src: "/images/achievements/cisco-computer-hardware-basics.jpg",
+    src: asset("/images/achievements/cisco-computer-hardware-basics.jpg"),
     alt: "Badge terverifikasi Cisco Networking Academy untuk kursus Computer Hardware Basics",
     caption: "Badge Cisco — Computer Hardware Basics",
     category: "Achievements",
@@ -87,7 +88,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-team-mrupin",
-    src: "/images/achievements/mcl-team-mrupin.png",
+    src: asset("/images/achievements/mcl-team-mrupin.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.MR'upin",
     caption: "Piala MCL E-Sports Mania — Team.MR'upin",
     category: "Achievements",
@@ -100,7 +101,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-team-aduell",
-    src: "/images/achievements/mcl-team-aduell.png",
+    src: asset("/images/achievements/mcl-team-aduell.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.aduell",
     caption: "Piala MCL E-Sports Mania — Team.aduell",
     category: "Achievements",
@@ -113,7 +114,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-team-villain",
-    src: "/images/achievements/mcl-team-villain.png",
+    src: asset("/images/achievements/mcl-team-villain.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.Villain",
     caption: "Piala MCL E-Sports Mania — Team.Villain",
     category: "Achievements",
@@ -126,7 +127,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-pace-jatoh",
-    src: "/images/achievements/mcl-pace-jatoh.png",
+    src: asset("/images/achievements/mcl-pace-jatoh.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim pace jatoh",
     caption: "Piala MCL E-Sports Mania — pace jatoh",
     category: "Achievements",
@@ -139,7 +140,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-team-zinlay",
-    src: "/images/achievements/mcl-team-zinlay.png",
+    src: asset("/images/achievements/mcl-team-zinlay.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.ZinLay",
     caption: "Piala MCL E-Sports Mania — Team.ZinLay",
     category: "Achievements",
@@ -152,7 +153,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-keluarga-pardi",
-    src: "/images/achievements/mcl-keluarga-pardi.png",
+    src: asset("/images/achievements/mcl-keluarga-pardi.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim KELUARGA PARDI",
     caption: "Piala MCL E-Sports Mania — KELUARGA PARDI",
     category: "Achievements",
@@ -165,7 +166,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-okegasokegas",
-    src: "/images/achievements/mcl-okegasokegas.png",
+    src: asset("/images/achievements/mcl-okegasokegas.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim OKEGASOKEGAS",
     caption: "Piala MCL E-Sports Mania — OKEGASOKEGAS",
     category: "Achievements",
@@ -178,7 +179,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mcl-sigma-skibidi",
-    src: "/images/achievements/mcl-sigma-skibidi.png",
+    src: asset("/images/achievements/mcl-sigma-skibidi.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Sigma Skibidi",
     caption: "Piala MCL E-Sports Mania — Sigma Skibidi",
     category: "Achievements",
@@ -191,7 +192,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "mythic-rank-ultima-tempest",
-    src: "/images/achievements/mythic-rank-ultima-tempest.png",
+    src: asset("/images/achievements/mythic-rank-ultima-tempest.png"),
     alt: "Layar peringkat Mythic Mobile Legends: Bang Bang pada akun •Ultima_Tempest•",
     caption: "Peringkat Mythic — akun •Ultima_Tempest•",
     category: "Achievements",
@@ -204,7 +205,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "lksn-2024-tim-keamanan-siber",
-    src: "/images/achievements/lksn-2024-tim-keamanan-siber.jpg",
+    src: asset("/images/achievements/lksn-2024-tim-keamanan-siber.jpg"),
     alt: "Foto bersama tim Keamanan Siber di LKS Nasional 2024",
     caption: "Foto tim Keamanan Siber — LKS Nasional 2024",
     category: "Activities",
@@ -217,7 +218,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "fotbar-lks-provinsi-riau-2024",
-    src: "/images/gallery/fotbar-lks-provinsi-riau-2024.jpg",
+    src: asset("/images/gallery/fotbar-lks-provinsi-riau-2024.jpg"),
     alt: "Foto bersama kontingen LKS tingkat Provinsi Riau 2024 dengan pakaian batik",
     caption: "Foto bersama kontingen LKS Provinsi Riau 2024",
     category: "Activities",
@@ -230,7 +231,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "ph-06",
-    src: "/images/gallery/placeholder-06.svg",
+    src: asset("/images/gallery/placeholder-06.svg"),
     alt: "Grid blueprint abstrak dengan simpul ungu — gambar contoh, bukan tangkapan layar proyek",
     caption: "Gambar contoh untuk visual proyek",
     category: "Projects",
@@ -243,7 +244,7 @@ export const localGallery: GalleryItem[] = [
   },
   {
     id: "ph-12",
-    src: "/images/gallery/placeholder-12.svg",
+    src: asset("/images/gallery/placeholder-12.svg"),
     alt: "Bentuk silinder basis data abstrak berwarna biru — gambar contoh, bukan tangkapan layar",
     caption: "Gambar contoh untuk latihan basis data",
     category: "Projects",

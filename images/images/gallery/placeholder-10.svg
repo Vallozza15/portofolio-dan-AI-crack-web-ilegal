@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Karya seni gambar contoh abstrak 10">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120C08"/><stop offset="1" stop-color="#2A1A10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#FB923C" stop-opacity="0.32"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FED7AA" stop-opacity="0.16"/><stop offset="1" stop-color="#FB923C" stop-opacity="0.02"/>
+    </linearGradient>
+    
+  <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+  </filter>
+  <filter id="blurXL" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="120"/>
+  </filter>
+  <filter id="blurM" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="42"/>
+  </filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect width="1200" height="1500" fill="url(#glow)"/>
+  <ellipse cx="180" cy="180" rx="480" ry="450" fill="#FB923C" fill-opacity="0.08" filter="url(#blurXL)"/>
+  <g><line x1="100" y1="0" x2="100" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="200" y1="0" x2="200" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="300" y1="0" x2="300" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="400" y1="0" x2="400" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="500" y1="0" x2="500" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="600" y1="0" x2="600" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="700" y1="0" x2="700" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="800" y1="0" x2="800" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="900" y1="0" x2="900" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="1000" y1="0" x2="1000" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="1100" y1="0" x2="1100" y2="1500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="100" x2="1200" y2="100" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="200" x2="1200" y2="200" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="300" x2="1200" y2="300" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="400" x2="1200" y2="400" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="500" x2="1200" y2="500" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="600" x2="1200" y2="600" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="700" x2="1200" y2="700" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="800" x2="1200" y2="800" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="900" x2="1200" y2="900" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="1000" x2="1200" y2="1000" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="1100" x2="1200" y2="1100" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="1200" x2="1200" y2="1200" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="1300" x2="1200" y2="1300" stroke="#FED7AA" stroke-opacity="0.09"/><line x1="0" y1="1400" x2="1200" y2="1400" stroke="#FED7AA" stroke-opacity="0.09"/></g>
+  <g>
+    <circle cx="600" cy="630" r="312" fill="none" stroke="#FB923C" stroke-opacity="0.38"/>
+    <circle cx="600" cy="630" r="228" fill="none" stroke="#FED7AA" stroke-opacity="0.18" stroke-dasharray="2 7"/>
+    <circle cx="600" cy="630" r="66" fill="#FB923C" fill-opacity="0.18" stroke="#FB923C" stroke-opacity="0.5"/>
+    <path d="M 600 318 L 642 630 L 600 942 L 558 630 Z" fill="#FB923C" fill-opacity="0.12"/>
+    <line x1="216" y1="630" x2="983.9999999999999" y2="630" stroke="#FED7AA" stroke-opacity="0.2"/>
+    <circle cx="591.4208807051182" cy="850.2267150906846" r="0.9105967538198456" fill="#FED7AA" fill-opacity="0.3"/><circle cx="1141.3881274871528" cy="757.9005140578374" r="0.1477620127843693" fill="#FED7AA" fill-opacity="0.3"/><circle cx="87.85537742078304" cy="59.40458946861327" r="1.4028248456306756" fill="#FED7AA" fill-opacity="0.3"/><circle cx="653.6373071372509" cy="911.9200251298025" r="1.2334644215879962" fill="#FED7AA" fill-opacity="0.3"/><circle cx="94.58901006728411" cy="97.60478418320417" r="1.273612053715624" fill="#FED7AA" fill-opacity="0.3"/><circle cx="843.517301324755" cy="1441.7810087325051" r="0.5503980692010373" fill="#FED7AA" fill-opacity="0.3"/><circle cx="199.21015994623303" cy="635.0905692670494" r="0.7419184392783791" fill="#FED7AA" fill-opacity="0.3"/><circle cx="1039.427581988275" cy="872.6444126805291" r="0.7224885657196864" fill="#FED7AA" fill-opacity="0.3"/><circle cx="117.26553915068507" cy="968.827708507888" r="0.3335933983325958" fill="#FED7AA" fill-opacity="0.3"/><circle cx="1029.1194333694875" cy="907.9821085324511" r="0.9740933552384377" fill="#FED7AA" fill-opacity="0.3"/><circle cx="246.9807998277247" cy="1477.6294307084754" r="0.7253239407436922" fill="#FED7AA" fill-opacity="0.3"/><circle cx="10.784021951258183" cy="1355.3922639694065" r="0.2005454470636323" fill="#FED7AA" fill-opacity="0.3"/><circle cx="818.6444705352187" cy="83.23531388305128" r="0.924481715192087" fill="#FED7AA" fill-opacity="0.3"/><circle cx="395.32933915033937" cy="1126.4678647276014" r="0.12394178041722625" fill="#FED7AA" fill-opacity="0.3"/><circle cx="1090.1948416605592" cy="808.1846097484231" r="1.376902001677081" fill="#FED7AA" fill-opacity="0.3"/><circle cx="365.4428059235215" cy="246.82402017060667" r="0.2600736388703808" fill="#FED7AA" fill-opacity="0.3"/><circle cx="598.5595718957484" cy="855.7907516369596" r="1.1228820083197206" fill="#FED7AA" fill-opacity="0.3"/><circle cx="528.7752122618258" cy="1052.0587106002495" r="0.3579820403829217" fill="#FED7AA" fill-opacity="0.3"/><circle cx="116.38472937047482" cy="363.51401859428734" r="0.6742049572058022" fill="#FED7AA" fill-opacity="0.3"/><circle cx="1069.4527873769403" cy="1338.364198571071" r="0.542751025990583" fill="#FED7AA" fill-opacity="0.3"/>
+    <text x="96" y="1350" font-family="ui-monospace, monospace" font-size="14.4" letter-spacing="5" fill="#FED7AA" fill-opacity="0.5">10 / TIM &amp; DISIPLIN</text>
+  </g>
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" fill="#FED7AA" fill-opacity="0.55">
+    <text x="72" y="105.00000000000001" font-size="13.2" letter-spacing="6">VALLOZZA / ARSIP VISUAL</text>
+    <text x="1128" y="105.00000000000001" text-anchor="end" font-size="13.2" letter-spacing="4">GAMBAR CONTOH 10</text>
+    <text x="1128" y="1432.5" text-anchor="end" font-size="12" letter-spacing="4">KEGIATAN / PRAMUKA</text>
+  </g>
+  <rect x="24" y="30" width="1152" height="1440" fill="none" stroke="#FED7AA" stroke-opacity="0.12"/>
+  <rect width="1200" height="1500" filter="url(#grain)" opacity="0.55"/>
+</svg>

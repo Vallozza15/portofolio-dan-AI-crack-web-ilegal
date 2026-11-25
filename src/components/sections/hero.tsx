@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { asset } from "@/lib/assets";
 import Image from "next/image";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ArrowDown, ArrowDownToLine, ArrowUpRight, Download, Sparkles } from "lucide-react";
@@ -214,7 +215,7 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-[1.75rem] border border-line-strong bg-card/80 p-2.5 shadow-[0_40px_100px_-40px_rgba(139,92,246,0.45)] backdrop-blur">
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.2rem] bg-[#0b0812]">
                 <Image
-                  src="/images/portrait/vallozza.png"
+                  src={asset("/images/portrait/vallozza.png")}
                   alt="Muhammad Vallozza Vito berdiri di depan latar acara Cyber Security bertema maskot gajah"
                   fill
                   priority

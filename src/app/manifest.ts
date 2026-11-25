@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { asset } from "@/lib/assets";
 import { profile } from "@/data/profile";
 
 export default function manifest(): MetadataRoute.Manifest {
@@ -12,7 +13,7 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#080808",
     icons: [
       {
-        src: "/icons/icon.svg",
+        src: asset("/icons/icon.svg"),
         sizes: "any",
         type: "image/svg+xml",
         purpose: "any",

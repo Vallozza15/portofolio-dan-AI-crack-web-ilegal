@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { asset } from "@/lib/assets";
 import localFont from "next/font/local";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
@@ -83,7 +84,7 @@ export default function RootLayout({
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        <link rel="author" href="/llms.txt" />
+        <link rel="author" href={asset("/llms.txt")} />
       </head>
       <body className="font-sans antialiased">
         <noscript>

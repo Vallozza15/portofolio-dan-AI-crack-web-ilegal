@@ -1,4 +1,5 @@
 import type { Achievement, GameTrophy } from "@/types";
+import { asset } from "@/lib/assets";
 
 /**
  * Hanya hasil yang punya bukti di arsip pribadi yang dicantumkan di sini.
@@ -17,9 +18,9 @@ export const achievements: Achievement[] = [
       "Meraih Juara I bidang Teknologi Keamanan Siber (Cyber Security) pada Lomba Kompetensi Siswa (LKS) Tingkat Provinsi Riau Tahun 2024. Sertifikat diterbitkan Disdik Provinsi Riau dengan nomor 400.3.5.4/DISDIK/31/2024/6357, tertanggal 31 Mei 2024.",
     details: ["Bidang: Cyber Security", "Tingkat: Provinsi Riau", "Tahun: 2024"],
     date: "2024-05-31",
-    certificateUrl: "/images/achievements/lks-provinsi-riau-2024-juara-1.jpg",
+    certificateUrl: asset("/images/achievements/lks-provinsi-riau-2024-juara-1.jpg"),
     image: {
-      src: "/images/achievements/lks-provinsi-riau-2024-juara-1.jpg",
+      src: asset("/images/achievements/lks-provinsi-riau-2024-juara-1.jpg"),
       alt: "Sertifikat Juara I LKS Tingkat Provinsi Riau 2024 bidang Teknologi Keamanan Siber atas nama M. Vallozza Vito",
       width: 1600,
       height: 1130,
@@ -37,9 +38,9 @@ export const achievements: Achievement[] = [
       "Meraih Juara III pada PCR HACK BATTLE 2024 dengan tema “Cyber Security Awareness for Youth Generation”. Sertifikat nomor 0063.11/STF/PCR/2024 menjadi bukti resminya.",
     details: ["Keamanan Siber", "PCR HACK BATTLE 2024", "Tema: Cyber Security Awareness"],
     date: "2024",
-    certificateUrl: "/images/achievements/pcr-hack-battle-2024-juara-3.jpg",
+    certificateUrl: asset("/images/achievements/pcr-hack-battle-2024-juara-3.jpg"),
     image: {
-      src: "/images/achievements/pcr-hack-battle-2024-juara-3.jpg",
+      src: asset("/images/achievements/pcr-hack-battle-2024-juara-3.jpg"),
       alt: "Sertifikat Juara III PCR HACK BATTLE 2024 atas nama M. Vallozza Vito",
       width: 1280,
       height: 933,
@@ -59,7 +60,7 @@ export const achievements: Achievement[] = [
     date: "2024",
     certificateUrl: null,
     image: {
-      src: "/images/achievements/lksn-2024-tim-keamanan-siber.jpg",
+      src: asset("/images/achievements/lksn-2024-tim-keamanan-siber.jpg"),
       alt: "Foto bersama tim Keamanan Siber di LKS Nasional 2024",
       width: 1280,
       height: 960,
@@ -77,9 +78,9 @@ export const achievements: Achievement[] = [
       "Menyelesaikan kursus Computer Hardware Basics di Cisco Networking Academy dan memperoleh badge terverifikasi. Kredensial ini melengkapi dasar perangkat keras yang saya pelajari di TKJ.",
     details: ["Cisco Networking Academy", "Computer Hardware Basics", "Badge terverifikasi"],
     date: null,
-    certificateUrl: "/images/achievements/cisco-computer-hardware-basics.jpg",
+    certificateUrl: asset("/images/achievements/cisco-computer-hardware-basics.jpg"),
     image: {
-      src: "/images/achievements/cisco-computer-hardware-basics.jpg",
+      src: asset("/images/achievements/cisco-computer-hardware-basics.jpg"),
       alt: "Badge terverifikasi Cisco Networking Academy untuk kursus Computer Hardware Basics",
       width: 1600,
       height: 1600,
@@ -91,56 +92,56 @@ export const achievements: Achievement[] = [
 const mclTrophies: GameTrophy[] = [
   {
     team: "Team.MR'upin",
-    src: "/images/achievements/mcl-team-mrupin.png",
+    src: asset("/images/achievements/mcl-team-mrupin.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.MR'upin",
     width: 1520,
     height: 720,
   },
   {
     team: "Team.aduell",
-    src: "/images/achievements/mcl-team-aduell.png",
+    src: asset("/images/achievements/mcl-team-aduell.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.aduell",
     width: 1520,
     height: 720,
   },
   {
     team: "Team.Villain",
-    src: "/images/achievements/mcl-team-villain.png",
+    src: asset("/images/achievements/mcl-team-villain.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.Villain",
     width: 1520,
     height: 720,
   },
   {
     team: "pace jatoh",
-    src: "/images/achievements/mcl-pace-jatoh.png",
+    src: asset("/images/achievements/mcl-pace-jatoh.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim pace jatoh",
     width: 1520,
     height: 720,
   },
   {
     team: "Team.ZinLay",
-    src: "/images/achievements/mcl-team-zinlay.png",
+    src: asset("/images/achievements/mcl-team-zinlay.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.ZinLay",
     width: 1520,
     height: 720,
   },
   {
     team: "KELUARGA PARDI",
-    src: "/images/achievements/mcl-keluarga-pardi.png",
+    src: asset("/images/achievements/mcl-keluarga-pardi.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim KELUARGA PARDI",
     width: 1520,
     height: 720,
   },
   {
     team: "OKEGASOKEGAS",
-    src: "/images/achievements/mcl-okegasokegas.png",
+    src: asset("/images/achievements/mcl-okegasokegas.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim OKEGASOKEGAS",
     width: 1520,
     height: 720,
   },
   {
     team: "Sigma Skibidi",
-    src: "/images/achievements/mcl-sigma-skibidi.png",
+    src: asset("/images/achievements/mcl-sigma-skibidi.png"),
     alt: "Tangkapan layar piala MCL E-Sports Mania dengan nama tim Sigma Skibidi",
     width: 1520,
     height: 720,
@@ -176,7 +177,7 @@ export const gameAchievements: Achievement[] = [
     date: null,
     certificateUrl: null,
     image: {
-      src: "/images/achievements/mythic-rank-ultima-tempest.png",
+      src: asset("/images/achievements/mythic-rank-ultima-tempest.png"),
       alt: "Layar peringkat Mythic Mobile Legends: Bang Bang pada akun •Ultima_Tempest•",
       width: 1520,
       height: 720,
