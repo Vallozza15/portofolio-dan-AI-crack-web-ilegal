@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vallozza — Portofolio Pribadi (Versi HTML)</title>
+  <meta name="description" content="Portofolio pribadi Muhammad Vallozza Vito — mahasiswa Informatika yang mendalami keamanan siber, jaringan komputer, pemrograman, dan teknologi baru." />
+  <meta name="theme-color" content="#080808" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <script>
+    try {
+      if (localStorage.getItem("vallozza-theme") === "light") {
+        document.documentElement.dataset.theme = "light";
+      }
+    } catch {}
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Vallozza — kembali ke beranda">VALLOZZA<span>.</span></a>
+      <nav class="desktop-nav" aria-label="Navigasi utama">
+        <a href="#home" data-nav="home">Beranda</a>
+        <a href="#about" data-nav="about">Tentang</a>
+        <a href="#experience" data-nav="experience">Pengalaman</a>
+        <a href="#skills" data-nav="skills">Keahlian</a>
+        <a href="#projects" data-nav="projects">Proyek</a>
+        <a href="#achievements" data-nav="achievements">Pencapaian</a>
+        <a href="#gallery" data-nav="gallery">Galeri</a>
+        <a href="#contact" data-nav="contact">Kontak</a>
+      </nav>
+      <div class="header-actions">
+        <a class="talk-btn" href="#contact">Mari bicara <span aria-hidden="true">&#8599;</span></a>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Aktifkan tema terang">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="icon-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+          <svg class="menu-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <nav aria-label="Navigasi seluler">
+        <a href="#home" data-nav="home">Beranda <span>01</span></a>
+        <a href="#about" data-nav="about">Tentang <span>02</span></a>
+        <a href="#experience" data-nav="experience">Pengalaman <span>03</span></a>
+        <a href="#skills" data-nav="skills">Keahlian <span>04</span></a>
+        <a href="#projects" data-nav="projects">Proyek <span>05</span></a>
+        <a href="#achievements" data-nav="achievements">Pencapaian <span>06</span></a>
+        <a href="#gallery" data-nav="gallery">Galeri <span>07</span></a>
+        <a href="#contact" data-nav="contact">Kontak <span>08</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-glow second" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow-row reveal">
+            <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Sedang belajar &amp; berkarya</span>
+            <span class="mono">Portofolio <span class="accent">/</span> 2026</span>
+          </div>
+          <h1 id="hero-title" class="reveal">Membangun <em>Ide.</em><br />Menjelajahi <em>Teknologi.</em><br />Menjaga Masa Depan<br /><em class="gradient-text">Digital.</em></h1>
+          <p class="hero-intro reveal">Saya Muhammad Vallozza Vito, mahasiswa Informatika yang tertarik pada keamanan siber, jaringan komputer, pemrograman, dan teknologi baru.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#projects">Lihat proyek saya <span aria-hidden="true">&#8599;</span></a>
+            <button class="btn btn-ghost" id="cvNoteBtn" type="button" aria-describedby="cvNote" aria-expanded="false">Unduh CV <span class="tag">segera</span></button>
+          </div>
+          <p class="cv-note" id="cvNote" hidden>CV belum diterbitkan di versi HTML ini. Berkas PDF dapat ditambahkan saat sudah siap.</p>
+          <div class="social-line reveal">Temukan saya <span class="accent">/</span> Tautan menyusul</div>
+        </div>
+
+        <aside class="portrait reveal" aria-label="Foto Muhammad Vallozza Vito di acara Cyber Security">
+          <div class="portrait-frame">
+            <div class="portrait-shot">
+              <img src="images/portrait/vallozza.png" alt="Muhammad Vallozza Vito berdiri di depan latar acara Cyber Security bertema maskot gajah" width="720" height="1277" fetchpriority="high" />
+              <div class="portrait-overlay" aria-hidden="true"></div>
+              <div class="portrait-top">
+                <span class="pill">Foto pribadi</span>
+                <span class="mono">No. 01</span>
+              </div>
+              <div class="portrait-bottom">
+                <p>Muhammad Vallozza Vito</p>
+                <p>Informatika / Keamanan</p>
+              </div>
+            </div>
+          </div>
+          <div class="float-chip left" aria-hidden="true">Keamanan Siber</div>
+          <div class="float-chip right" aria-hidden="true">Jaringan</div>
+          <span class="fig-label" aria-hidden="true">Gbr. 01</span>
+        </aside>
+      </div>
+
+      <div class="container hero-foot">
+        <span class="scroll-cue"><i aria-hidden="true"></i>Gulir untuk menjelajah</span>
+        <div class="meta">
+          <span>Studi <b>Informatika · UNPAM</b></span>
+          <span>Dasar <b>TKJ · Jaringan</b></span>
+          <span>Fokus <b>Pertahanan siber</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">01 / Tentang</span>
+            <h2 id="about-title">Rasa ingin tahu yang<br />diuji lewat <em>praktik.</em></h2>
+          </div>
+          <p>Latar belakang Teknik Komputer dan Jaringan bertemu dengan studi Informatika — dua jalur yang membentuk cara saya memahami sistem, jaringan, dan keamanan.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>Saya mahasiswa Informatika di Universitas Pamulang dengan latar belakang Teknik Komputer dan Jaringan (TKJ). Fokus saya berada di pertemuan antara keamanan defensif, operasi jaringan, dan dasar-dasar perangkat lunak.</p>
+            <p>Saya suka memahami bagaimana sistem berperilaku ketika ada masalah: koneksi terputus, jaringan salah konfigurasi, atau ancaman yang lolos dari pendeteksian. Rasa ingin tahu itu membentuk cara saya belajar — mulai dari dasar, menguji ide lewat praktik, dan mencatat apa yang saya temukan.</p>
+            <p>Saat ini saya memperkuat dasar C++, Python, SQL, dan jaringan sambil mengeksplorasi bagaimana kecerdasan artifisial dapat membantu deteksi dan respons ancaman siber.</p>
+          </div>
+          <aside class="focus-card reveal">
+            <h3>Bidang fokus</h3>
+            <ul class="chips">
+              <li>Keamanan Siber</li>
+              <li>Jaringan Komputer</li>
+              <li>Pengembangan Perangkat Lunak</li>
+              <li>Kecerdasan Artifisial</li>
+              <li>Sistem Operasi</li>
+              <li>Riset Teknologi</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">02 / Pengalaman</span>
+            <h2 id="experience-title">Belajar dari<br /><em>lapangan.</em></h2>
+          </div>
+          <p>Pengalaman dijelaskan sebagai pembelajaran dan kerja lapangan. Tidak ada jabatan, promosi, atau posisi kepemimpinan yang dikarang.</p>
+        </div>
+
+        <div class="exp-list">
+          <article class="exp-card reveal">
+            <div>
+              <p class="role">Magang di Penyedia Layanan Internet</p>
+              <p class="company">Dashnet</p>
+              <span class="exp-meta">Kerja Lapangan · PKL</span>
+            </div>
+            <div>
+              <p class="summary">Kerja lapangan praktis di penyedia layanan internet — membantu konektivitas pelanggan, mempelajari alur penanganan gangguan, dan mengenal peralatan serat optik secara langsung.</p>
+              <ul>
+                <li>Membantu menangani masalah Wi-Fi dan koneksi internet pelanggan.</li>
+                <li>Mempelajari bagaimana koneksi diperiksa dan diperbaiki di lingkungan ISP yang sebenarnya.</li>
+                <li>Mengenal peralatan serat optik dan prosedur perawatan standar.</li>
+                <li>Mempelajari keselamatan kerja, kesehatan, dan norma profesional di tim teknis.</li>
+              </ul>
+              <div class="tools"><span>Stripper serat optik</span><span>Piller</span><span>Splicer</span><span>Sleeve</span></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <div>
+              <p class="role">Kegiatan Organisasi</p>
+              <p class="company">Pramuka</p>
+              <span class="exp-meta">Organisasi siswa</span>
+            </div>
+            <div>
+              <p class="summary">Mengikuti kegiatan Pramuka yang membentuk disiplin, tanggung jawab, komunikasi, dan sisi praktis bekerja dalam tim.</p>
+              <ul>
+                <li>Melatih koordinasi dan tanggung jawab bersama dalam kegiatan kelompok.</li>
+                <li>Mengembangkan kebiasaan berkomunikasi melalui tugas berbasis tim.</li>
+                <li>Membangun konsistensi dan disiplin melalui kegiatan yang terstruktur.</li>
+              </ul>
+              <div class="tools"><span>Kerja Sama Tim</span><span>Disiplin</span><span>Komunikasi</span><span>Tanggung Jawab</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">03 / Keahlian</span>
+            <h2 id="skills-title">Dasar yang jelas,<br />tanpa angka <em>karangan.</em></h2>
+          </div>
+          <p>Keahlian dicantumkan sebagai bidang studi dan latihan — tanpa persentase, tanpa nilai kemahiran yang dikarang, dan tanpa klaim sertifikasi yang tidak ada.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="idx"><span>01</span><span>PROG</span></div>
+            <h3>Pemrograman</h3>
+            <p class="kicker">Bangun logikanya</p>
+            <p>Latihan dasar dengan bahasa terstruktur, alur kendali, dan pemecahan masalah. Fokusnya adalah kejelasan sebelum kerumitan.</p>
+            <ul class="chips"><li>C++</li><li>Python</li><li>SQL</li><li>MySQL</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="idx"><span>02</span><span>SEC</span></div>
+            <h3>Keamanan Siber</h3>
+            <p class="kicker">Berpikir defensif</p>
+            <p>Dasar-dasar keamanan yang dibentuk oleh pengalaman kompetisi dan riset akademik tentang deteksi dan respons.</p>
+            <ul class="chips"><li>Dasar-Dasar Keamanan Siber</li><li>Dasar Keamanan Jaringan</li><li>Konsep Deteksi Ancaman</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="idx"><span>03</span><span>NET</span></div>
+            <h3>Jaringan</h3>
+            <p class="kicker">Ikuti sinyalnya</p>
+            <p>Pengalaman praktis dari studi TKJ dan kerja lapangan di ISP: konektivitas, jaringan pelanggan, dan dasar serat optik.</p>
+            <ul class="chips"><li>Jaringan Komputer</li><li>Penanganan Gangguan Wi-Fi</li><li>Dasar Serat Optik</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="idx"><span>04</span><span>TECH</span></div>
+            <h3>Teknologi</h3>
+            <p class="kicker">Pahami sistemnya</p>
+            <p>Pengetahuan praktis tentang sistem sehari-hari, perangkat keras, dan alat yang dipakai untuk belajar, menguji, dan berkarya.</p>
+            <ul class="chips"><li>Windows 11</li><li>Perangkat Keras Komputer</li><li>Sistem Operasi</li><li>Emulasi Android</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">04 / Proyek</span>
+            <h2 id="projects-title">Karya yang bisa<br />dibaca dan <em>diuji.</em></h2>
+          </div>
+          <p>Empat studi kasus dari perkuliahan dan latihan mandiri — ditulis dengan ruang lingkup yang jelas, bukan klaim yang berlebihan.</p>
+        </div>
+
+        <div class="projects-list">
+          <a class="project-card reveal" href="projects/ai-cyber-threat-detection">
+            <span class="num">01</span>
+            <span>
+              <h3>Peran Kecerdasan Artifisial dalam Deteksi dan Respons Ancaman Siber</h3>
+              <p class="subtitle">Makalah riset akademik</p>
+              <p class="desc">Proyek riset akademik yang membahas bagaimana kecerdasan artifisial dapat mendukung deteksi dan respons ancaman siber.</p>
+            </span>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+          </a>
+          <a class="project-card reveal" href="projects/candi-prambanan">
+            <span class="num">02</span>
+            <span>
+              <h3>Mengenal Candi Prambanan Indonesia</h3>
+              <p class="subtitle">Proyek warisan budaya berbahasa Inggris</p>
+              <p class="desc">Proyek akademik berbahasa Inggris yang memperkenalkan makna budaya dan sejarah Candi Prambanan.</p>
+            </span>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+          </a>
+          <a class="project-card reveal" href="projects/programming-fundamentals">
+            <span class="num">03</span>
+            <span>
+              <h3>Dasar-Dasar Pemrograman</h3>
+              <p class="subtitle">C++, Python &amp; pemecahan masalah logis</p>
+              <p class="desc">Kumpulan latihan pemrograman menggunakan C++, Python, dan pemecahan masalah secara logis.</p>
+            </span>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+          </a>
+          <a class="project-card reveal" href="projects/mysql-database-practice">
+            <span class="num">04</span>
+            <span>
+              <h3>Latihan Basis Data MySQL</h3>
+              <p class="subtitle">Skema, tabel &amp; operasi SQL</p>
+              <p class="desc">Latihan membangun skema relasional, menulis kueri, dan memahami bagaimana data disimpan serta diambil kembali.</p>
+            </span>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+          </a>
+        </div>
+        <p class="projects-note">Halaman studi kasus lengkap tersedia di versi Next.js dari situs ini.</p>
+      </div>
+    </section>
+
+    <section class="section" id="achievements" aria-labelledby="achievements-title">
+      <div class="section-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">05 / Pencapaian</span>
+            <h2 id="achievements-title">Hasil, dengan<br /><em>konteks</em> yang tepat.</h2>
+          </div>
+          <p>Perbedaan yang jelas antara meraih posisi, ikut serta, dan menyelesaikan sertifikasi. Setiap kartu menautkan bukti yang tersimpan di arsip pribadi.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <article class="achievement-card highlight reveal">
+            <div class="badge-row"><span class="badge accent">Penghargaan · Juara 1</span><span class="mono">01</span></div>
+            <a class="media" href="images/achievements/lks-provinsi-riau-2024-juara-1.jpg" target="_blank" rel="noreferrer noopener" aria-label="Lihat sertifikat: LKS Tingkat Provinsi Riau 2024">
+              <span class="media-box"><img src="images/achievements/lks-provinsi-riau-2024-juara-1.jpg" alt="Sertifikat Juara I LKS Tingkat Provinsi Riau 2024 bidang Teknologi Keamanan Siber atas nama M. Vallozza Vito" width="1600" height="1130" loading="lazy" /></span>
+              <span class="media-label">Buka dokumen &#8599;</span>
+            </a>
+            <div class="achievement-result">
+              <span class="result-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4ZM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg></span>
+              <div class="result-copy"><p class="label">Hasil</p><p class="value">Pertama</p><p class="note">tingkat provinsi</p></div>
+            </div>
+            <h3>LKS Tingkat Provinsi Riau 2024</h3>
+            <p class="desc">Meraih Juara I bidang Teknologi Keamanan Siber (Cyber Security) pada Lomba Kompetensi Siswa (LKS) Tingkat Provinsi Riau Tahun 2024. Sertifikat diterbitkan Disdik Provinsi Riau dengan nomor 400.3.5.4/DISDIK/31/2024/6357, tertanggal 31 Mei 2024.</p>
+            <ul class="details"><li>Bidang: Cyber Security</li><li>Tingkat: Provinsi Riau</li><li>Tahun: 2024</li></ul>
+            <div class="achievement-foot"><span class="date">31 Mei 2024</span><a href="images/achievements/lks-provinsi-riau-2024-juara-1.jpg" target="_blank" rel="noreferrer noopener">Lihat sertifikat &#8599;</a></div>
+          </article>
+
+          <article class="achievement-card highlight reveal">
+            <div class="badge-row"><span class="badge accent">Penghargaan · Juara 3</span><span class="mono">02</span></div>
+            <a class="media" href="images/achievements/pcr-hack-battle-2024-juara-3.jpg" target="_blank" rel="noreferrer noopener" aria-label="Lihat sertifikat: PCR HACK BATTLE 2024">
+              <span class="media-box"><img src="images/achievements/pcr-hack-battle-2024-juara-3.jpg" alt="Sertifikat Juara III PCR HACK BATTLE 2024 atas nama M. Vallozza Vito" width="1280" height="933" loading="lazy" /></span>
+              <span class="media-label">Buka dokumen &#8599;</span>
+            </a>
+            <div class="achievement-result">
+              <span class="result-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4ZM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg></span>
+              <div class="result-copy"><p class="label">Hasil</p><p class="value">Ketiga</p><p class="note">tingkat daerah</p></div>
+            </div>
+            <h3>PCR HACK BATTLE 2024</h3>
+            <p class="desc">Meraih Juara III pada PCR HACK BATTLE 2024 dengan tema “Cyber Security Awareness for Youth Generation”. Sertifikat nomor 0063.11/STF/PCR/2024 menjadi bukti resminya.</p>
+            <ul class="details"><li>Keamanan Siber</li><li>PCR HACK BATTLE 2024</li><li>Tema: Cyber Security Awareness</li></ul>
+            <div class="achievement-foot"><span class="date">2024</span><a href="images/achievements/pcr-hack-battle-2024-juara-3.jpg" target="_blank" rel="noreferrer noopener">Lihat sertifikat &#8599;</a></div>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="badge-row"><span class="badge">Partisipasi · Nasional</span><span class="mono">03</span></div>
+            <a class="media" href="images/achievements/lksn-2024-tim-keamanan-siber.jpg" target="_blank" rel="noreferrer noopener" aria-label="Lihat dokumentasi: LKS Tingkat Nasional 2024">
+              <span class="media-box cover"><img src="images/achievements/lksn-2024-tim-keamanan-siber.jpg" alt="Foto bersama tim Keamanan Siber di LKS Nasional 2024" width="1280" height="960" loading="lazy" /></span>
+              <span class="media-label">Buka dokumentasi &#8599;</span>
+            </a>
+            <div class="achievement-result">
+              <span class="result-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 3 5 6v5c0 4 3 7 7 9 4-2 7-5 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+              <div class="result-copy"><p class="label">Catatan</p><p class="value">Peserta</p><p class="note">tingkat nasional</p></div>
+            </div>
+            <h3>LKS Tingkat Nasional 2024</h3>
+            <p class="desc">Mengikuti LKS tingkat nasional bidang Keamanan Siber bersama kontingen provinsi. Dicatat sebagai partisipasi — bukan peringkat atau kemenangan tingkat nasional.</p>
+            <ul class="details"><li>Bidang: Keamanan Siber</li><li>Tingkat: Nasional (SMK)</li><li>Dokumentasi: foto tim</li></ul>
+            <div class="achievement-foot"><span class="date">2024</span><a href="images/achievements/lksn-2024-tim-keamanan-siber.jpg" target="_blank" rel="noreferrer noopener">Lihat dokumentasi &#8599;</a></div>
+          </article>
+
+          <article class="achievement-card highlight reveal">
+            <div class="badge-row"><span class="badge accent">Sertifikasi · Kursus</span><span class="mono">04</span></div>
+            <a class="media" href="images/achievements/cisco-computer-hardware-basics.jpg" target="_blank" rel="noreferrer noopener" aria-label="Lihat sertifikat: Cisco Networking Academy">
+              <span class="media-box"><img src="images/achievements/cisco-computer-hardware-basics.jpg" alt="Badge terverifikasi Cisco Networking Academy untuk kursus Computer Hardware Basics" width="1600" height="1600" loading="lazy" /></span>
+              <span class="media-label">Buka dokumen &#8599;</span>
+            </a>
+            <div class="achievement-result">
+              <span class="result-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span>
+              <div class="result-copy"><p class="label">Kredensial</p><p class="value">Terverifikasi</p><p class="note">Computer Hardware Basics</p></div>
+            </div>
+            <h3>Cisco Networking Academy</h3>
+            <p class="desc">Menyelesaikan kursus Computer Hardware Basics di Cisco Networking Academy dan memperoleh badge terverifikasi. Kredensial ini melengkapi dasar perangkat keras yang saya pelajari di TKJ.</p>
+            <ul class="details"><li>Cisco Networking Academy</li><li>Computer Hardware Basics</li><li>Badge terverifikasi</li></ul>
+            <div class="achievement-foot"><span class="date">Tanggal belum diterbitkan</span><a href="images/achievements/cisco-computer-hardware-basics.jpg" target="_blank" rel="noreferrer noopener">Lihat sertifikat &#8599;</a></div>
+          </article>
+        </div>
+
+        <div class="game-block" aria-labelledby="game-title">
+          <div class="game-head reveal">
+            <div>
+              <span class="section-label">Prestasi game</span>
+              <h3 id="game-title">MCL E-Sports Mania &amp; <em>ranked</em></h3>
+            </div>
+            <span class="mono">08 piala · 01 rank</span>
+          </div>
+
+          <div class="game-panel reveal">
+            <div class="game-body">
+              <div class="game-copy">
+                <span class="badge accent">Prestasi game · Mobile Legends</span>
+                <div class="achievement-result">
+                  <span class="result-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4ZM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg></span>
+                  <div class="result-copy"><p class="label">Gelar</p><p class="value">Juara</p><p class="note">8 gelar tercatat</p></div>
+                </div>
+                <h4 class="game-title">MCL E-Sports Mania</h4>
+                <p class="desc">Delapan gelar juara MCL E-Sports Mania di Mobile Legends: Bang Bang yang terdokumentasi lewat tangkapan layar piala. Setiap tangkapan layar mencantumkan nama tim yang berbeda.</p>
+                <ul class="chips">
+                  <li>Team.MR'upin</li><li>Team.aduell</li><li>Team.Villain</li><li>pace jatoh</li>
+                  <li>Team.ZinLay</li><li>KELUARGA PARDI</li><li>OKEGASOKEGAS</li><li>Sigma Skibidi</li>
+                </ul>
+                <p class="game-proof">Bukti berupa tangkapan layar piala di dalam game. Tanggal turnamen belum tercantum pada gambar, jadi tidak dikarang di sini.</p>
+              </div>
+              <div>
+                <div class="game-trophies">
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-team-mrupin.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.MR'upin" data-caption="Piala MCL E-Sports Mania — Team.MR'upin" data-category="Achievements" aria-label="Perbesar piala MCL tim Team.MR'upin"><img src="images/achievements/mcl-team-mrupin.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.MR'upin" width="1520" height="720" loading="lazy" /><span>Team.MR'upin</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-team-aduell.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.aduell" data-caption="Piala MCL E-Sports Mania — Team.aduell" data-category="Achievements" aria-label="Perbesar piala MCL tim Team.aduell"><img src="images/achievements/mcl-team-aduell.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.aduell" width="1520" height="720" loading="lazy" /><span>Team.aduell</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-team-villain.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.Villain" data-caption="Piala MCL E-Sports Mania — Team.Villain" data-category="Achievements" aria-label="Perbesar piala MCL tim Team.Villain"><img src="images/achievements/mcl-team-villain.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.Villain" width="1520" height="720" loading="lazy" /><span>Team.Villain</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-pace-jatoh.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim pace jatoh" data-caption="Piala MCL E-Sports Mania — pace jatoh" data-category="Achievements" aria-label="Perbesar piala MCL tim pace jatoh"><img src="images/achievements/mcl-pace-jatoh.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim pace jatoh" width="1520" height="720" loading="lazy" /><span>pace jatoh</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-team-zinlay.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.ZinLay" data-caption="Piala MCL E-Sports Mania — Team.ZinLay" data-category="Achievements" aria-label="Perbesar piala MCL tim Team.ZinLay"><img src="images/achievements/mcl-team-zinlay.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.ZinLay" width="1520" height="720" loading="lazy" /><span>Team.ZinLay</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-keluarga-pardi.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim KELUARGA PARDI" data-caption="Piala MCL E-Sports Mania — KELUARGA PARDI" data-category="Achievements" aria-label="Perbesar piala MCL tim KELUARGA PARDI"><img src="images/achievements/mcl-keluarga-pardi.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim KELUARGA PARDI" width="1520" height="720" loading="lazy" /><span>KELUARGA PARDI</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-okegasokegas.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim OKEGASOKEGAS" data-caption="Piala MCL E-Sports Mania — OKEGASOKEGAS" data-category="Achievements" aria-label="Perbesar piala MCL tim OKEGASOKEGAS"><img src="images/achievements/mcl-okegasokegas.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim OKEGASOKEGAS" width="1520" height="720" loading="lazy" /><span>OKEGASOKEGAS</span></button>
+                  <button class="trophy-btn" type="button" data-src="images/achievements/mcl-sigma-skibidi.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Sigma Skibidi" data-caption="Piala MCL E-Sports Mania — Sigma Skibidi" data-category="Achievements" aria-label="Perbesar piala MCL tim Sigma Skibidi"><img src="images/achievements/mcl-sigma-skibidi.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Sigma Skibidi" width="1520" height="720" loading="lazy" /><span>Sigma Skibidi</span></button>
+                </div>
+                <p class="game-hint">Klik piala untuk memperbesar</p>
+              </div>
+            </div>
+            <button class="mythic-btn" type="button" data-src="images/achievements/mythic-rank-ultima-tempest.png" data-alt="Layar peringkat Mythic Mobile Legends: Bang Bang pada akun •Ultima_Tempest•" data-caption="Peringkat Mythic — akun •Ultima_Tempest•" data-category="Achievements" aria-label="Perbesar tangkapan layar peringkat Mythic">
+              <img src="images/achievements/mythic-rank-ultima-tempest.png" alt="Layar peringkat Mythic Mobile Legends: Bang Bang pada akun •Ultima_Tempest•" width="1520" height="720" loading="lazy" />
+              <span class="mythic-overlay">
+                <span>
+                  <span class="label">Peringkat ranked</span>
+                  <span class="value">Mythic</span>
+                  <span class="account">Akun •Ultima_Tempest•</span>
+                </span>
+                <span class="expand" aria-hidden="true">&#8599;</span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <p class="projects-note">Nama kompetisi, tingkat, dan hasil ditampilkan sesuai dokumen yang tersimpan. Partisipasi tetap dibedakan dari kemenangan, dan tanggal yang belum terbaca dibiarkan kosong.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">06 / Galeri</span>
+            <h2 id="gallery-title">Arsip visual,<br />dalam <em>proses.</em></h2>
+          </div>
+          <p>Foto pribadi, dokumentasi kompetisi, dan sertifikat yang diunggah manual oleh pemilik. Gambar proyek yang belum tersedia tetap ditandai sebagai gambar contoh.</p>
+        </div>
+
+        <div class="gallery-bar reveal">
+          <div class="filters" role="group" aria-label="Filter galeri">
+            <button class="filter-btn" type="button" data-filter="All" aria-pressed="true">Semua <span class="count">17</span></button>
+            <button class="filter-btn" type="button" data-filter="Personal" aria-pressed="false">Pribadi <span class="count">1</span></button>
+            <button class="filter-btn" type="button" data-filter="Activities" aria-pressed="false">Kegiatan <span class="count">2</span></button>
+            <button class="filter-btn" type="button" data-filter="Achievements" aria-pressed="false">Pencapaian <span class="count">12</span></button>
+            <button class="filter-btn" type="button" data-filter="Projects" aria-pressed="false">Proyek <span class="count">2</span></button>
+          </div>
+          <p class="gallery-count" id="galleryCount" aria-live="polite">17 gambar</p>
+        </div>
+
+        <div class="gallery-columns" id="galleryGrid">
+          <button class="gallery-card reveal" type="button" data-category="Personal" data-src="images/portrait/vallozza.png" data-alt="Muhammad Vallozza Vito berdiri di depan latar acara Cyber Security bertema maskot gajah" data-caption="Foto diri di acara Cyber Security" aria-label="Perbesar: Foto diri di acara Cyber Security">
+            <span class="gallery-thumb"><img src="images/portrait/vallozza.png" alt="Muhammad Vallozza Vito berdiri di depan latar acara Cyber Security bertema maskot gajah" width="720" height="1277" loading="lazy" /><span class="cat">Pribadi</span></span>
+            <span class="gallery-caption"><span>Foto diri di acara Cyber Security</span><span class="idx">01</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/pcr-hack-battle-2024-juara-3.jpg" data-alt="Sertifikat Juara III PCR HACK BATTLE 2024 atas nama M. Vallozza Vito" data-caption="Sertifikat Juara III PCR HACK BATTLE 2024" aria-label="Perbesar: Sertifikat Juara III PCR HACK BATTLE 2024">
+            <span class="gallery-thumb"><img src="images/achievements/pcr-hack-battle-2024-juara-3.jpg" alt="Sertifikat Juara III PCR HACK BATTLE 2024 atas nama M. Vallozza Vito" width="1280" height="933" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Sertifikat Juara III PCR HACK BATTLE 2024</span><span class="idx">02</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/lks-provinsi-riau-2024-juara-1.jpg" data-alt="Sertifikat Juara I LKS Tingkat Provinsi Riau 2024 bidang Teknologi Keamanan Siber atas nama M. Vallozza Vito" data-caption="Sertifikat Juara I LKS Provinsi Riau 2024" aria-label="Perbesar: Sertifikat Juara I LKS Provinsi Riau 2024">
+            <span class="gallery-thumb"><img src="images/achievements/lks-provinsi-riau-2024-juara-1.jpg" alt="Sertifikat Juara I LKS Tingkat Provinsi Riau 2024 bidang Teknologi Keamanan Siber atas nama M. Vallozza Vito" width="1600" height="1130" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Sertifikat Juara I LKS Provinsi Riau 2024</span><span class="idx">03</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/cisco-computer-hardware-basics.jpg" data-alt="Badge terverifikasi Cisco Networking Academy untuk kursus Computer Hardware Basics" data-caption="Badge Cisco — Computer Hardware Basics" aria-label="Perbesar: Badge Cisco Computer Hardware Basics">
+            <span class="gallery-thumb"><img src="images/achievements/cisco-computer-hardware-basics.jpg" alt="Badge terverifikasi Cisco Networking Academy untuk kursus Computer Hardware Basics" width="1600" height="1600" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Badge Cisco — Computer Hardware Basics</span><span class="idx">04</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-team-mrupin.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.MR'upin" data-caption="Piala MCL E-Sports Mania — Team.MR'upin" aria-label="Perbesar: Piala MCL Team.MR'upin">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-team-mrupin.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.MR'upin" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — Team.MR'upin</span><span class="idx">05</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-team-aduell.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.aduell" data-caption="Piala MCL E-Sports Mania — Team.aduell" aria-label="Perbesar: Piala MCL Team.aduell">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-team-aduell.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.aduell" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — Team.aduell</span><span class="idx">06</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-team-villain.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.Villain" data-caption="Piala MCL E-Sports Mania — Team.Villain" aria-label="Perbesar: Piala MCL Team.Villain">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-team-villain.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.Villain" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — Team.Villain</span><span class="idx">07</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-pace-jatoh.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim pace jatoh" data-caption="Piala MCL E-Sports Mania — pace jatoh" aria-label="Perbesar: Piala MCL pace jatoh">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-pace-jatoh.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim pace jatoh" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — pace jatoh</span><span class="idx">08</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-team-zinlay.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.ZinLay" data-caption="Piala MCL E-Sports Mania — Team.ZinLay" aria-label="Perbesar: Piala MCL Team.ZinLay">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-team-zinlay.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Team.ZinLay" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — Team.ZinLay</span><span class="idx">09</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-keluarga-pardi.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim KELUARGA PARDI" data-caption="Piala MCL E-Sports Mania — KELUARGA PARDI" aria-label="Perbesar: Piala MCL KELUARGA PARDI">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-keluarga-pardi.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim KELUARGA PARDI" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — KELUARGA PARDI</span><span class="idx">10</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-okegasokegas.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim OKEGASOKEGAS" data-caption="Piala MCL E-Sports Mania — OKEGASOKEGAS" aria-label="Perbesar: Piala MCL OKEGASOKEGAS">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-okegasokegas.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim OKEGASOKEGAS" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — OKEGASOKEGAS</span><span class="idx">11</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mcl-sigma-skibidi.png" data-alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Sigma Skibidi" data-caption="Piala MCL E-Sports Mania — Sigma Skibidi" aria-label="Perbesar: Piala MCL Sigma Skibidi">
+            <span class="gallery-thumb"><img src="images/achievements/mcl-sigma-skibidi.png" alt="Tangkapan layar piala MCL E-Sports Mania dengan nama tim Sigma Skibidi" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Piala MCL — Sigma Skibidi</span><span class="idx">12</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Achievements" data-src="images/achievements/mythic-rank-ultima-tempest.png" data-alt="Layar peringkat Mythic Mobile Legends: Bang Bang pada akun •Ultima_Tempest•" data-caption="Peringkat Mythic — akun •Ultima_Tempest•" aria-label="Perbesar: Peringkat Mythic">
+            <span class="gallery-thumb"><img src="images/achievements/mythic-rank-ultima-tempest.png" alt="Layar peringkat Mythic Mobile Legends: Bang Bang pada akun •Ultima_Tempest•" width="1520" height="720" loading="lazy" /><span class="cat">Pencapaian</span></span>
+            <span class="gallery-caption"><span>Peringkat Mythic — akun •Ultima_Tempest•</span><span class="idx">13</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Activities" data-src="images/achievements/lksn-2024-tim-keamanan-siber.jpg" data-alt="Foto bersama tim Keamanan Siber di LKS Nasional 2024" data-caption="Foto tim Keamanan Siber — LKS Nasional 2024" aria-label="Perbesar: Foto tim Keamanan Siber LKS Nasional 2024">
+            <span class="gallery-thumb"><img src="images/achievements/lksn-2024-tim-keamanan-siber.jpg" alt="Foto bersama tim Keamanan Siber di LKS Nasional 2024" width="1280" height="960" loading="lazy" /><span class="cat">Kegiatan</span></span>
+            <span class="gallery-caption"><span>Foto tim Keamanan Siber — LKS Nasional 2024</span><span class="idx">14</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Activities" data-src="images/gallery/fotbar-lks-provinsi-riau-2024.jpg" data-alt="Foto bersama kontingen LKS tingkat Provinsi Riau 2024 dengan pakaian batik" data-caption="Foto bersama kontingen LKS Provinsi Riau 2024" aria-label="Perbesar: Foto bersama kontingen LKS Provinsi Riau 2024">
+            <span class="gallery-thumb"><img src="images/gallery/fotbar-lks-provinsi-riau-2024.jpg" alt="Foto bersama kontingen LKS tingkat Provinsi Riau 2024 dengan pakaian batik" width="1200" height="1600" loading="lazy" /><span class="cat">Kegiatan</span></span>
+            <span class="gallery-caption"><span>Foto bersama kontingen LKS Provinsi Riau 2024</span><span class="idx">15</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Projects" data-src="images/gallery/placeholder-06.svg" data-alt="Grid blueprint abstrak dengan simpul ungu — gambar contoh, bukan tangkapan layar proyek" data-caption="Gambar contoh untuk visual proyek" aria-label="Perbesar: Gambar contoh visual proyek">
+            <span class="gallery-thumb"><img src="images/gallery/placeholder-06.svg" alt="Grid blueprint abstrak dengan simpul ungu — gambar contoh, bukan tangkapan layar proyek" width="1400" height="1050" loading="lazy" /><span class="cat">Proyek</span><span class="sample">Gambar contoh</span></span>
+            <span class="gallery-caption"><span>Gambar contoh untuk visual proyek</span><span class="idx">16</span></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-category="Projects" data-src="images/gallery/placeholder-12.svg" data-alt="Bentuk silinder basis data abstrak berwarna biru — gambar contoh, bukan tangkapan layar" data-caption="Gambar contoh untuk latihan basis data" aria-label="Perbesar: Gambar contoh latihan basis data">
+            <span class="gallery-thumb"><img src="images/gallery/placeholder-12.svg" alt="Bentuk silinder basis data abstrak berwarna biru — gambar contoh, bukan tangkapan layar" width="1200" height="1500" loading="lazy" /><span class="cat">Proyek</span><span class="sample">Gambar contoh</span></span>
+            <span class="gallery-caption"><span>Gambar contoh untuk latihan basis data</span><span class="idx">17</span></span>
+          </button>
+        </div>
+
+        <p class="projects-note">Foto tidak pernah diunduh otomatis dari akun pribadi. Hanya gambar yang diunggah manual oleh pemilik, atau digunakan dengan izin, yang diterbitkan di sini.</p>
+      </div>
+    </section>
+
+    <section class="section" id="social" aria-labelledby="social-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">07 / Sosial</span>
+            <h2 id="social-title">Temukan saya di<br /><em>internet.</em></h2>
+          </div>
+          <p>Profil, platform, dan tempat karya serta proses belajar terlihat. Tautan dikurasi manual — tidak ada nama pengguna yang ditebak.</p>
+        </div>
+
+        <div class="social-grid">
+          <div class="social-list reveal">
+            <div class="social-row">
+              <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.4" cy="6.6" r="0.9" fill="currentColor" stroke="none"/></svg></span>
+              <span class="platform">Instagram</span><span class="handle">Profil belum ditambahkan</span><span class="pending">Segera</span>
+            </div>
+            <div class="social-row">
+              <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.05-2.76V9.4a6.33 6.33 0 1 0 4.4 6.02V8.83a8.2 8.2 0 0 0 4.77 1.52V6.87a4.85 4.85 0 0 1-.9-.18Z"/></svg></span>
+              <span class="platform">TikTok</span><span class="handle">Profil belum ditambahkan</span><span class="pending">Segera</span>
+            </div>
+            <div class="social-row">
+              <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.84 1.18 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></span>
+              <span class="platform">GitHub</span><span class="handle">Profil belum ditambahkan</span><span class="pending">Segera</span>
+            </div>
+            <div class="social-row">
+              <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13Zm1.78 13.02H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg></span>
+              <span class="platform">LinkedIn</span><span class="handle">Profil belum ditambahkan</span><span class="pending">Segera</span>
+            </div>
+            <div class="social-row">
+              <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.6 15.6V8.4L15.8 12l-6.2 3.6Z"/></svg></span>
+              <span class="platform">YouTube</span><span class="handle">Profil belum ditambahkan</span><span class="pending">Segera</span>
+            </div>
+            <div class="social-row">
+              <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12a12 12 0 1 0-13.88 11.85v-8.38H7.08V12h3.04V9.36c0-3 1.79-4.67 4.53-4.67 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87V12h3.32l-.53 3.47h-2.79v8.38A12 12 0 0 0 24 12Z"/></svg></span>
+              <span class="platform">Facebook</span><span class="handle">Profil belum ditambahkan</span><span class="pending">Segera</span>
+            </div>
+          </div>
+
+          <aside class="social-status reveal">
+            <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Status tautan</span>
+            <p class="big">00<span style="font-size:22px;color:var(--muted)">/06</span></p>
+            <p>URL profil belum diterbitkan. Enam slot platform sudah siap — masing-masing baru aktif ketika pemilik menambahkan tautan asli.</p>
+            <p class="divider">Tanpa scraping, tanpa menebak nama pengguna, tanpa URL profil otomatis.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">08 / Pendidikan</span>
+            <h2 id="education-title">Ruang kelas di balik<br />rasa <em>ingin tahu.</em></h2>
+          </div>
+          <p>Fondasi dalam ilmu komputer dan jaringan, dibangun melalui studi universitas dan pendidikan kejuruan.</p>
+        </div>
+
+        <div class="edu-list">
+          <article class="edu-card reveal">
+            <div>
+              <span class="level">Jenjang Sarjana</span>
+              <h3>Universitas Pamulang</h3>
+              <p class="program">S1 Informatika</p>
+            </div>
+            <div>
+              <p class="desc">Mempelajari dasar-dasar ilmu komputer sekaligus membangun keterampilan praktis dalam pemrograman, basis data, arsitektur komputer, dan sistem operasi.</p>
+              <div class="courses">
+                <ul class="chips"><li>Dasar-Dasar Pemrograman</li><li>C++ &amp; Python</li><li>Sistem Basis Data &amp; MySQL</li><li>Arsitektur Komputer</li><li>Sistem Operasi</li><li>Aljabar Boolean</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="edu-card reveal">
+            <div>
+              <span class="level">Sekolah Menengah Kejuruan (SMK)</span>
+              <h3>SMKN 1 Pekanbaru</h3>
+              <p class="program">Teknik Komputer dan Jaringan (TKJ)</p>
+            </div>
+            <div>
+              <p class="desc">Membangun dasar praktis dalam jaringan komputer, perangkat jaringan, dan dasar-dasar keamanan siber, termasuk praktik kerja lapangan di penyedia layanan internet.</p>
+              <div class="courses">
+                <ul class="chips"><li>Jaringan Komputer</li><li>Perangkat Jaringan</li><li>Dasar-Dasar Keamanan Siber</li><li>Operasional Layanan Internet</li></ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="section-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-label">09 / Kontak</span>
+            <h2 id="contact-title">Mari bangun sesuatu<br />yang <em>bermakna.</em></h2>
+          </div>
+          <p>Sebuah pertanyaan, kolaborasi, atau masalah yang layak dipahami — mulailah dengan pesan yang jelas. Tanpa kotak masuk palsu, tanpa pengiriman yang tidak terlihat.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="reveal">
+            <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Sedang belajar &amp; berkarya</span>
+            <div class="contact-card" style="margin-top:20px">
+              <p class="label">Email publik</p>
+              <p class="value">Belum diterbitkan</p>
+              <p class="note">Tidak ada alamat email yang dikarang untuk situs ini. Formulir kontak menjadi jalur yang dimaksud setelah pengiriman dikonfigurasi.</p>
+            </div>
+            <p class="form-note" style="margin-top:14px">Versi HTML ini mengirim ke endpoint <code>/api/contact</code> milik situs Next.js. Jika pengiriman email belum dikonfigurasi, tidak ada pesan yang terkirim dan status akan menjelaskannya.</p>
+          </div>
+
+          <form class="form reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="contact-name">Nama <b>*</b></label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Nama Anda" required minlength="2" maxlength="80" />
+              </div>
+              <div class="field">
+                <label for="contact-email">Email <b>*</b></label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="nama@contoh.com" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="contact-subject">Subjek <b>*</b></label>
+              <input id="contact-subject" name="subject" type="text" placeholder="Ada yang ingin didiskusikan?" required minlength="3" maxlength="140" />
+            </div>
+            <div class="field">
+              <label for="contact-message">Pesan <b>*</b></label>
+              <textarea id="contact-message" name="message" placeholder="Tuliskan konteks dan hal yang ingin dibahas..." required minlength="20" maxlength="5000"></textarea>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="contact-website">Website</label>
+              <input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+            <div class="form-foot">
+              <button class="btn btn-primary" type="submit" id="contactSubmit">Kirim pesan <span aria-hidden="true">&#8599;</span></button>
+              <p class="form-note">Minimal 20 karakter untuk pesan.</p>
+            </div>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="footer-brand" href="#home">VALLOZZA<span>.</span></a>
+          <p class="footer-tagline">Menjelajahi Teknologi. Membangun Kemungkinan.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navigasi footer">
+          <a href="#home">Beranda</a><a href="#about">Tentang</a><a href="#experience">Pengalaman</a><a href="#projects">Proyek</a><a href="#gallery">Galeri</a><a href="#contact">Kontak</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> Muhammad Vallozza Vito</span>
+        <span>Versi HTML statis · Dirancang dengan sengaja</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Penampil gambar" hidden>
+    <div class="lb-dialog" id="lbDialog">
+      <button class="lb-close" id="lbClose" type="button" aria-label="Tutup penampil gambar">&#10005;</button>
+      <div class="lb-stage"><img id="lbImage" src="" alt="" /></div>
+      <div class="lb-info">
+        <span class="cat" id="lbCategory"></span>
+        <h3 id="lbCaption"></h3>
+        <p id="lbAlt"></p>
+        <p class="lb-count" id="lbCount"></p>
+        <div class="lb-nav">
+          <button id="lbPrev" type="button">&#8592; Sebelum</button>
+          <button id="lbNext" type="button">Berikut &#8594;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Opsional: isi data-ctf-url dengan origin AI CTF jika dihosting terpisah,
+       contoh: data-ctf-url="https://ctf.example.com" -->
+  <a class="ctf-fab" id="ctfFab" href="/ctf/login" data-ctf-url="" aria-label="Buka AI CTF Solver" title="Buka AI CTF Solver">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 8V4H8"></path>
+      <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+      <path d="M2 14h2"></path>
+      <path d="M20 14h2"></path>
+      <path d="M15 13v2"></path>
+      <path d="M9 13v2"></path>
+    </svg>
+    <span class="ctf-fab-label">Buka AI CTF</span>
+  </a>
+
+  <script src="portfolio.js" defer></script>
+</body>
+</html>
+
+

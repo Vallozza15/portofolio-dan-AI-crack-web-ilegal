@@ -1,0 +1,20 @@
+# Vallozza — Portofolio Pribadi
+
+> Portofolio Muhammad Vallozza Vito, mahasiswa Informatika di Universitas Pamulang dengan latar belakang Teknik Komputer dan Jaringan (TKJ). Bidang fokus meliputi keamanan siber, jaringan komputer, pemrograman, kecerdasan artifisial, dan sistem operasi.
+
+## Halaman kanonis
+
+- [Beranda](/?): portofolio lengkap berisi profil, pengalaman, keahlian, proyek, pencapaian, galeri, tautan sosial, pendidikan, dan kontak.
+- [Proyek](/projects): arsip proyek akademik dan pembelajaran.
+- [Peran Kecerdasan Artifisial dalam Deteksi dan Respons Ancaman Siber](/projects/ai-cyber-threat-detection): makalah riset akademik.
+- [Mengenal Candi Prambanan Indonesia](/projects/candi-prambanan): proyek warisan budaya berbahasa Inggris.
+- [Dasar-Dasar Pemrograman](/projects/programming-fundamentals): latihan belajar C++ dan Python.
+- [Latihan Basis Data MySQL](/projects/mysql-database-practice): latihan basis data relasional.
+
+## Catatan penting
+
+- Foto pribadi, sertifikat, dan dokumentasi kompetisi berasal dari arsip pemilik. Gambar yang masih diberi label "Gambar contoh" adalah karya seni abstrak, bukan foto.
+- Tautan profil sosial dan alamat email publik hanya diterbitkan bila dikonfigurasi manual oleh pemilik situs.
+- Partisipasi kompetisi dibedakan dari kemenangan. Tanggal dan detail sertifikat dicantumkan hanya bila terbaca dari dokumen.
+- Prestasi game mencakup piala MCL E-Sports Mania dan peringkat Mythic di Mobile Legends: Bang Bang.
+- Tidak ada repositori, demo langsung, atau endpoint pengiriman kontak yang dikarang.

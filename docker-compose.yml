@@ -1,0 +1,69 @@
+name: vallozza-portfolio
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+        NEXT_PUBLIC_CTF_URL: ${NEXT_PUBLIC_CTF_URL:-}
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL:-}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY:-}
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: "3000"
+      CTF_DATA_DIR: /app/.data
+      CTF_WORKSPACE_ROOT: /data/ctf
+      CTF_DATABASE_URL: postgres://ctf:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@db:5432/ctf_intelligence
+      CTF_PY_BACKEND_URL: http://py:3131
+    ports:
+      - "${APP_PORT:-3000}:3000"
+    volumes:
+      - ctf-data:/app/.data
+      - ctf-workspaces:/data/ctf
+    depends_on:
+      db:
+        condition: service_healthy
+      py:
+        condition: service_healthy
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ctf
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ctf_intelligence
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ctf -d ctf_intelligence"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  py:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:3131/health', timeout=3)",
+        ]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+
+volumes:
+  ctf-data:
+  ctf-workspaces:
+  pgdata:

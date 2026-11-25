@@ -1,0 +1,13 @@
+# Optional override for the Kali terminal feature on a Linux Docker host.
+#
+# WARNING: mounting the Docker socket gives the app control over the host
+# Docker daemon. Use this only on a dedicated VPS you control, never on a
+# shared or untrusted host.
+#
+# Usage:
+#   docker build -t ctf-kali-remote:latest docker/ctf-kali-remote
+#   docker compose -f docker-compose.yml -f docker-compose.kali.yml up -d --build
+services:
+  app:
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

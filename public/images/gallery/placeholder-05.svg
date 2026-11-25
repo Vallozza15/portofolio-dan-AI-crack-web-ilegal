@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Karya seni gambar contoh abstrak 05">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#130C04"/><stop offset="1" stop-color="#2A1905"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#FBBF24" stop-opacity="0.32"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDE68A" stop-opacity="0.16"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0.02"/>
+    </linearGradient>
+    
+  <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+  </filter>
+  <filter id="blurXL" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="120"/>
+  </filter>
+  <filter id="blurM" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="42"/>
+  </filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect width="1200" height="1500" fill="url(#glow)"/>
+  <ellipse cx="180" cy="180" rx="480" ry="450" fill="#FBBF24" fill-opacity="0.08" filter="url(#blurXL)"/>
+  <g><line x1="100" y1="0" x2="100" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="200" y1="0" x2="200" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="300" y1="0" x2="300" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="400" y1="0" x2="400" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="500" y1="0" x2="500" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="600" y1="0" x2="600" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="700" y1="0" x2="700" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="800" y1="0" x2="800" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="900" y1="0" x2="900" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="1000" y1="0" x2="1000" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="1100" y1="0" x2="1100" y2="1500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="100" x2="1200" y2="100" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="200" x2="1200" y2="200" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="300" x2="1200" y2="300" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="400" x2="1200" y2="400" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="500" x2="1200" y2="500" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="600" x2="1200" y2="600" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="700" x2="1200" y2="700" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="800" x2="1200" y2="800" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="900" x2="1200" y2="900" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="1000" x2="1200" y2="1000" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="1100" x2="1200" y2="1100" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="1200" x2="1200" y2="1200" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="1300" x2="1200" y2="1300" stroke="#FDE68A" stroke-opacity="0.09"/><line x1="0" y1="1400" x2="1200" y2="1400" stroke="#FDE68A" stroke-opacity="0.09"/></g>
+  <g>
+    <circle cx="600" cy="600" r="276" fill="#FBBF24" fill-opacity="0.08"/>
+    <circle cx="600" cy="600" r="204.00000000000003" fill="none" stroke="#FBBF24" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="600" cy="600" r="144" fill="none" stroke="#FDE68A" stroke-opacity="0.25"/>
+    <path d="M 528 810 L 480 1080 L 600 1005.0000000000001 L 720 1080 L 672.0000000000001 810 Z" fill="#FBBF24" fill-opacity="0.16" stroke="#FBBF24" stroke-opacity="0.4"/>
+    <path d="M 600 495 L 648 600 L 600 705 L 552 600 Z" fill="#FDE68A" fill-opacity="0.5"/>
+    <circle cx="395.1255725696683" cy="1334.72326467745" r="0.4935011508408934" fill="#FDE68A" fill-opacity="0.1050523865269497"/><circle cx="402.85185305401683" cy="276.8532318295911" r="0.8260299630928785" fill="#FDE68A" fill-opacity="0.0649192804703489"/><circle cx="951.2000444345176" cy="1012.0318093104288" r="0.02247481942176819" fill="#FDE68A" fill-opacity="0.033528289874084294"/><circle cx="518.7014051713049" cy="41.11486882902682" r="0.9667344013229012" fill="#FDE68A" fill-opacity="0.1710457211593166"/><circle cx="552.7114737778902" cy="132.80864409171045" r="0.2536926300264895" fill="#FDE68A" fill-opacity="0.03771121392492205"/><circle cx="175.84753576666117" cy="730.8602370321751" r="0.994906723452732" fill="#FDE68A" fill-opacity="0.036661370657384396"/><circle cx="223.657797742635" cy="167.9312732303515" r="1.6765595024451614" fill="#FDE68A" fill-opacity="0.3691326684784144"/><circle cx="518.8078212551773" cy="1108.0686394125223" r="0.7113135594874621" fill="#FDE68A" fill-opacity="0.13656054029706866"/><circle cx="409.1612074524164" cy="39.142146706581116" r="1.6014851334504783" fill="#FDE68A" fill-opacity="0.05820524774026126"/><circle cx="757.9971799626946" cy="1454.0846933377907" r="0.7434180222451687" fill="#FDE68A" fill-opacity="0.22588032367639244"/><circle cx="81.15244964137673" cy="136.6776981158182" r="1.0785151388961822" fill="#FDE68A" fill-opacity="0.3347792609129101"/><circle cx="240.76641518622637" cy="142.90047157555819" r="0.0239747756626457" fill="#FDE68A" fill-opacity="0.3381628117058426"/><circle cx="1013.7633240781724" cy="781.0438260203227" r="1.6728442879859358" fill="#FDE68A" fill-opacity="0.06274045060854405"/><circle cx="700.7174952886999" cy="1211.2060321960598" r="0.44097820557653905" fill="#FDE68A" fill-opacity="0.40434165322221816"/><circle cx="569.0049522556365" cy="1045.2719317981973" r="1.5630075065419078" fill="#FDE68A" fill-opacity="0.4860983358230442"/><circle cx="101.13273784518242" cy="1342.9415408754721" r="0.06057080696336925" fill="#FDE68A" fill-opacity="0.058969184290617704"/><circle cx="1146.5460196137428" cy="48.45831706188619" r="1.757344434829429" fill="#FDE68A" fill-opacity="0.4706011253874749"/><circle cx="145.70159688591957" cy="626.5579689061269" r="0.24089203351177277" fill="#FDE68A" fill-opacity="0.24375310342293233"/><circle cx="301.1022398248315" cy="1208.826601272449" r="1.100572363100946" fill="#FDE68A" fill-opacity="0.3822984935250133"/><circle cx="275.60432525351644" cy="1461.3398808287457" r="0.08986017066054046" fill="#FDE68A" fill-opacity="0.2978357693646103"/><circle cx="343.71913354843855" cy="710.6375608127564" r="1.3799609406385571" fill="#FDE68A" fill-opacity="0.47161528933793306"/><circle cx="305.622442625463" cy="799.1400315659121" r="1.7554732403252273" fill="#FDE68A" fill-opacity="0.006049602874554694"/><circle cx="498.226969409734" cy="1236.717969411984" r="0.6568833930417896" fill="#FDE68A" fill-opacity="0.3449218802852556"/><circle cx="229.59626717492938" cy="1023.6305119469762" r="1.0134368679486216" fill="#FDE68A" fill-opacity="0.09071912278886884"/><circle cx="175.61646904796362" cy="1332.839569542557" r="0.42899669911712407" fill="#FDE68A" fill-opacity="0.06785217439755797"/><circle cx="1106.3195672817528" cy="1372.7465065894648" r="1.7529127155896276" fill="#FDE68A" fill-opacity="0.3947804607450962"/><circle cx="26.38486633077264" cy="60.885143000632524" r="1.55898202881217" fill="#FDE68A" fill-opacity="0.004450164269655943"/><circle cx="277.6322138495743" cy="1233.826182433404" r="0.918225189903751" fill="#FDE68A" fill-opacity="0.38971123250667006"/>
+    <text x="96" y="1350" font-family="ui-monospace, monospace" font-size="15.6" letter-spacing="5" fill="#FDE68A" fill-opacity="0.5">05 / PENGHARGAAN</text>
+  </g>
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" fill="#FDE68A" fill-opacity="0.55">
+    <text x="72" y="105.00000000000001" font-size="13.2" letter-spacing="6">VALLOZZA / ARSIP VISUAL</text>
+    <text x="1128" y="105.00000000000001" text-anchor="end" font-size="13.2" letter-spacing="4">GAMBAR CONTOH 05</text>
+    <text x="1128" y="1432.5" text-anchor="end" font-size="12" letter-spacing="4">PENCAPAIAN / CATATAN</text>
+  </g>
+  <rect x="24" y="30" width="1152" height="1440" fill="none" stroke="#FDE68A" stroke-opacity="0.12"/>
+  <rect width="1200" height="1500" filter="url(#grain)" opacity="0.55"/>
+</svg>
