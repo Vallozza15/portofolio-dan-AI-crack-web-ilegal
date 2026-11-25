@@ -138,23 +138,41 @@ npm run ctf:research:smoke
 npm run ctf:picoctf:verify
 ```
 
-## Deployment
+## GitHub Pages (yang sedang dipakai)
+
+Alamat publik: **https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal/**
+
+Folder ini adalah **root situs GitHub Pages**. File `index.html` di root langsung
+menampilkan portofolio, lengkap dengan `_next/`, `projects/`, `images/`, `fonts/`,
+`icons/`, `robots.txt`, dan `sitemap.xml`. Versi HTML mandiri tersedia di
+`/portfolio.html`. File `.nojekyll` memastikan folder `_next/` tidak dilewati
+Jekyll saat publish.
+
+Yang bisa dilihat di GitHub Pages:
+
+- halaman utama dan seluruh halaman detail proyek;
+- versi HTML statis `/portfolio.html`;
+- tombol AI CTF bulat di kanan bawah, yang mengarah ke `/ctf/login/`;
+- halaman `/ctf/login/` berisi penjelasan akses laboratorium.
+
+**Batasan penting:** GitHub Pages hanya menyajikan file statis. AI CTF lengkap
+(login, API, WebSocket terminal, PostgreSQL, Docker Kali) tidak bisa berjalan di
+sini. Source lengkapnya tetap ada di folder yang sama (`src/app/ctf`,
+`src/app/api/ctf`, `server.ts`, `backend/`, `docker/`) untuk dijalankan di server.
+
+Jika versi statis `/portfolio.html` dipakai dengan AI CTF di origin lain, isi
+atribut `data-ctf-url` pada tombol `#ctfFab` di `portfolio.html` dengan origin
+CTF tersebut, mis. `data-ctf-url="https://ctf.example.com"`.
+
+## Deployment aplikasi penuh
 
 Panduan lengkap ada di [DEPLOYMENT.md](DEPLOYMENT.md). Ringkasnya:
 
-- **GitHub Pages tidak cocok** untuk seluruh aplikasi karena ada API routes,
-  autentikasi, database, dan WebSocket.
-- **Vercel** dapat dipakai untuk portofolio statis, tetapi bukan untuk custom
-  server + WebSocket + terminal Docker tanpa arsitektur terpisah.
 - **VPS dengan Docker Compose** adalah opsi paling lengkap dan direkomendasikan
-  untuk seluruh fitur.
-- **Render/Railway/Fly.io** dapat menjalankan container web + PostgreSQL, tetapi
-  terminal Kali memerlukan Docker host terpisah atau VPS.
-
-Jika memakai versi statis `/portfolio.html` dan AI CTF dihosting di origin
-terpisah, isi atribut `data-ctf-url` pada tombol `#ctfFab` di
-`public/portfolio.html` dengan origin CTF, misalnya
-`data-ctf-url="https://ctf.example.com"`.
+  untuk seluruh fitur, termasuk terminal Kali.
+- **Vercel/Render/Railway/Fly.io** hanya cocok untuk bagian portofolio atau
+  aplikasi yang sudah disesuaikan tanpa custom server + Docker host.
+- GitHub Pages dipakai khusus untuk portofolio statis di alamat di atas.
 
 ## Struktur proyek
 
@@ -163,7 +181,11 @@ terpisah, isi atribut `data-ctf-url` pada tombol `#ctfFab` di
 ├── backend/                 # FastAPI sidecar
 ├── docker/                  # image Kali, sandbox, fixture SSH
 ├── docs/                    # dokumentasi teknis
-├── public/                  # aset statis
+├── index.html               # halaman utama GitHub Pages
+├── _next/                   # CSS/JS hasil build statis
+├── projects/                # halaman detail proyek (statis)
+├── ctf/login/               # halaman informasi akses AI CTF
+├── images/, fonts/, icons/  # aset statis (dulu ada di public/)
 ├── scripts/                 # helper Windows/Node
 ├── src/
 │   ├── app/                 # route Next.js + API

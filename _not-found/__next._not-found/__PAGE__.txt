@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+3:"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1-l7q3egdw64h.js"
+4:I[38685,["$3"],"MotionProvider"]
+5:"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1ua2kfq9s-me6.js"
+6:I[39756,["$5"],"default"]
+7:"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/09ny_40kcoks_.js"
+8:"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1m_9gv4m8u2n0.js"
+9:I[16868,["$3","$7","$8"],"default"]
+a:I[37457,["$5"],"default"]
+b:"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1hj_wpch3usw_.js"
+c:I[22016,["$3","$b"],""]
+d:I[5014,["$3","$b"],"default"]
+1b:"ViewportBoundary"
+1c:I[97367,["$5"],"$1b"]
+1d:"MetadataBoundary"
+1e:I[97367,["$5"],"$1d"]
+1f:"$Sreact.suspense"
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/3_2x0k5j6x5cd.css","style"]
+2:["$","style",null,{"children":"[data-reveal]{opacity:1!important;transform:none!important}"}]
+f:X
+12:X
+12:C
+13:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","section",null,{"className":"relative grid min-h-[78svh] place-items-center overflow-hidden px-5 pb-20 pt-32","children":[["$","div",null,{"aria-hidden":true,"className":"hero-grid absolute inset-0"}],["$","div",null,{"aria-hidden":true,"className":"pointer-events-none absolute left-1/2 top-1/3 h-[24rem] w-[24rem] -translate-x-1/2 rounded-full bg-accent/15 blur-[120px]"}],["$","div",null,{"className":"relative max-w-2xl text-center","children":["$L14","$L15","$L16","$L17"]}]]}],["$L18"],"$L19"]}],"p":"$@1a","v":null,"s":"$f"}}]]
+10:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@11","v":"$12","s":"$f"},"c":"$Q13"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/3_2x0k5j6x5cd.css","precedence":"next"}],["$","script","script-0",{"src":"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1-l7q3egdw64h.js","async":true}]],["$","html",null,{"lang":"id","className":"Ur3q_a_variable iaM1Ya_variable jBXc2q_variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var stored=localStorage.getItem('vallozza-theme');if(stored==='light'||stored==='dark'){document.documentElement.dataset.theme=stored;}var meta=document.querySelector('meta[name=\"theme-color\"]');if(meta){meta.setAttribute('content',stored==='light'?'#f4f1ea':'#080808');}}catch(e){}})();"}}],["$","link",null,{"rel":"author","href":"/llms.txt"}]]}],["$","body",null,{"className":"font-sans antialiased","children":[["$","noscript",null,{"children":"$2"}],["$","$L4",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{"children":["$","$La",null,{}]}],"templateStyles":[],"templateScripts":[["$","script","script-0",{"src":"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/09ny_40kcoks_.js","async":true}],["$","script","script-1",{"src":"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1m_9gv4m8u2n0.js","async":true}]],"notFound":[["$","section",null,{"className":"relative grid min-h-[78svh] place-items-center overflow-hidden px-5 pb-20 pt-32","children":[["$","div",null,{"aria-hidden":true,"className":"hero-grid absolute inset-0"}],["$","div",null,{"aria-hidden":true,"className":"pointer-events-none absolute left-1/2 top-1/3 h-[24rem] w-[24rem] -translate-x-1/2 rounded-full bg-accent/15 blur-[120px]"}],["$","div",null,{"className":"relative max-w-2xl text-center","children":[["$","p",null,{"className":"font-mono text-[10px] uppercase tracking-[0.24em] text-accent","children":"Error / 404"}],["$","h1",null,{"className":"display mt-6 text-[clamp(3.2rem,9vw,7rem)]","children":["Tersesat di",["$","br",null,{}],["$","span",null,{"className":"serif-italic text-accent","children":"sinyal."}]]}],["$","p",null,{"className":"mx-auto mt-6 max-w-md text-sm leading-relaxed text-muted","children":"Halaman yang Anda cari tidak ada, sudah dipindahkan, atau memang belum pernah diterbitkan. Tidak ada tautan rusak yang sengaja dipasang."}],["$","div",null,{"className":"mt-8 flex flex-wrap items-center justify-center gap-3","children":[["$","$Lc",null,{"href":"/","className":"group inline-flex items-center gap-2.5 rounded-full bg-ink px-5 py-3 text-sm font-medium text-[var(--invert)] transition-colors hover:bg-accent hover:text-white","children":[["$","$Ld",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"h-4 w-4 transition-transform group-hover:-translate-x-0.5"}],"Kembali ke beranda"]}],["$","$Lc",null,{"href":"/projects","className":"group inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-accent hover:bg-accent/10","children":["Jelajahi proyek",["$","$Ld",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"className":"h-4 w-4 text-accent transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"}]]}]]}]]}]]}],[]]}]}]]}]]}]]}],"p":"$@e","v":null,"s":"$f"},"c":"$Q10"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L1c",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#080808"}],["$","meta","3",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1e",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Halaman tidak ditemukan — Vallozza"}],["$","meta","1",{"name":"description","content":"Mahasiswa Informatika yang mendalami keamanan siber, jaringan komputer, pemrograman, AI, dan sistem di balik layar."}],"$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36","$L37","$L38","$L39","$L3a"]}]}],null]}],"$L3b"]}],"p":"$@3c","v":null,"s":"$f"}},"a":"$@3d","u":"$@3e","b":"o7iHH3gt76b96c8z2wnqk"}
+3f:I[97367,["$5"],"OutletBoundary"]
+41:I[27201,["$5"],"IconMark"]
+14:["$","p",null,{"className":"font-mono text-[10px] uppercase tracking-[0.24em] text-accent","children":"Error / 404"}]
+15:["$","h1",null,{"className":"display mt-6 text-[clamp(3.2rem,9vw,7rem)]","children":["Tersesat di",["$","br",null,{}],["$","span",null,{"className":"serif-italic text-accent","children":"sinyal."}]]}]
+16:["$","p",null,{"className":"mx-auto mt-6 max-w-md text-sm leading-relaxed text-muted","children":"Halaman yang Anda cari tidak ada, sudah dipindahkan, atau memang belum pernah diterbitkan. Tidak ada tautan rusak yang sengaja dipasang."}]
+17:["$","div",null,{"className":"mt-8 flex flex-wrap items-center justify-center gap-3","children":[["$","$Lc",null,{"href":"/","className":"group inline-flex items-center gap-2.5 rounded-full bg-ink px-5 py-3 text-sm font-medium text-[var(--invert)] transition-colors hover:bg-accent hover:text-white","children":[["$","$Ld",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:1:props:children:props:notFound:0:props:children:2:props:children:3:props:children:0:props:children:0:props:icon","className":"h-4 w-4 transition-transform group-hover:-translate-x-0.5"}],"Kembali ke beranda"]}],["$","$Lc",null,{"href":"/projects","className":"group inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-accent hover:bg-accent/10","children":["Jelajahi proyek",["$","$Ld",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:1:props:children:props:notFound:0:props:children:2:props:children:3:props:children:1:props:children:1:props:icon","className":"h-4 w-4 text-accent transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"}]]}]]}]
+18:["$","script","script-0",{"src":"/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/1hj_wpch3usw_.js","async":true}]
+19:["$","$L3f",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@40"}]}]
+20:["$","meta","2",{"name":"application-name","content":"Vallozza"}]
+21:["$","meta","3",{"name":"author","content":"Muhammad Vallozza Vito"}]
+22:["$","link","4",{"rel":"manifest","href":"/portofolio-dan-AI-crack-web-ilegal/manifest.webmanifest"}]
+23:["$","meta","5",{"name":"keywords","content":"Muhammad Vallozza Vito,Vallozza,Mahasiswa Informatika,Keamanan Siber,Jaringan Komputer,C++,Python,MySQL,Portofolio,Universitas Pamulang"}]
+24:["$","meta","6",{"name":"creator","content":"Muhammad Vallozza Vito"}]
+25:["$","meta","7",{"name":"publisher","content":"Muhammad Vallozza Vito"}]
+26:["$","meta","8",{"name":"robots","content":"noindex, nofollow"}]
+27:["$","meta","9",{"name":"category","content":"technology"}]
+28:["$","link","10",{"rel":"canonical","href":"https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal/"}]
+29:["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}]
+2a:["$","meta","12",{"property":"og:title","content":"Halaman tidak ditemukan — Vallozza"}]
+2b:["$","meta","13",{"property":"og:description","content":"Mahasiswa Informatika yang mendalami keamanan siber, jaringan komputer, pemrograman, AI, dan sistem di balik layar."}]
+2c:["$","meta","14",{"property":"og:image","content":"https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal/opengraph-image?93d639341867f638"}]
+2d:["$","meta","15",{"property":"og:image:type","content":"image/png"}]
+2e:["$","meta","16",{"property":"og:image:width","content":"1200"}]
+2f:["$","meta","17",{"property":"og:image:height","content":"630"}]
+30:["$","meta","18",{"property":"og:image:alt","content":"Vallozza — portofolio pribadi Muhammad Vallozza Vito"}]
+31:["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}]
+32:["$","meta","20",{"name":"twitter:title","content":"Halaman tidak ditemukan — Vallozza"}]
+33:["$","meta","21",{"name":"twitter:description","content":"Mahasiswa Informatika yang mendalami keamanan siber, jaringan komputer, pemrograman, AI, dan sistem di balik layar."}]
+34:["$","meta","22",{"name":"twitter:image","content":"https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal/twitter-image?613f012d3ca1ce75"}]
+35:["$","meta","23",{"name":"twitter:image:alt","content":"Vallozza — portofolio pribadi Muhammad Vallozza Vito"}]
+36:["$","meta","24",{"name":"twitter:image:type","content":"image/png"}]
+37:["$","meta","25",{"name":"twitter:image:width","content":"1200"}]
+38:["$","meta","26",{"name":"twitter:image:height","content":"630"}]
+39:["$","link","27",{"rel":"icon","href":"/portofolio-dan-AI-crack-web-ilegal/icon.svg?icon.2ldb8jkr2u8y6.svg","sizes":"any","type":"image/svg+xml"}]
+3a:["$","$L41","28",{}]
+3b:["$","meta",null,{"name":"next-size-adjust","content":""}]
+f:300
+40:null
+3e:true
+f:C
+3d:0
+11:"$undefined"
+e:"$undefined"
+3c:"$undefined"
+1a:"$undefined"

@@ -9,12 +9,12 @@ import { siteUrl } from "@/lib/site";
 const instrumentSerif = localFont({
   src: [
     {
-      path: "../../public/fonts/instrument-serif-regular.woff2",
+      path: "../../fonts/instrument-serif-regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/instrument-serif-italic.woff2",
+      path: "../../fonts/instrument-serif-italic.woff2",
       weight: "400",
       style: "italic",
     },

@@ -33,7 +33,36 @@ tetapi halaman portofolio dan fitur CTF non-terminal tetap dapat digunakan.
 Jangan memaksa GitHub Pages untuk seluruh aplikasi. GitHub Pages tidak
 menjalankan Next.js API routes, autentikasi server, database, atau WebSocket.
 
-## 3. Opsi A — VPS Linux dengan Docker Compose (disarankan)
+## 3. Opsi GitHub Pages — portofolio statis (sedang aktif)
+
+Alamat: https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal/
+
+Repositori ini disiapkan agar root `main` langsung menjadi situs Pages:
+
+- `index.html` → halaman utama.
+- `projects/` → empat halaman detail proyek.
+- `portfolio.html` → versi HTML mandiri.
+- `ctf/login/` → halaman informasi bahwa laboratorium penuh butuh server.
+- `_next/`, `images/`, `fonts/`, `icons/` → aset statis.
+- `.nojekyll` → mencegah Jekyll mengabaikan folder `_next/`.
+
+Pengaturan GitHub: **Settings → Pages → Build and deployment → Deploy from a
+branch → Branch `main`, folder `/ (root)`**. Workflow `.github/workflows/deploy.yml`
+tetap menjalankan validasi build pada setiap push.
+
+Yang **tidak** tersedia di Pages: `/api/*`, login CTF, dashboard, chat AI,
+WebSocket terminal, sandbox Docker, dan penyimpanan data. Untuk itu pakai opsi
+VPS di bawah. Tombol AI CTF di Pages sengaja diarahkan ke halaman informasi,
+bukan ke dashboard yang tidak bisa berjalan.
+
+Catatan untuk build aplikasi penuh dari repositori ini: aset yang semula ada di
+`public/` sudah dipindahkan ke root agar Pages langsung menemukannya. Font
+lokal dibaca dari `fonts/` (lihat `src/app/layout.tsx`). Jika ingin menjalankan
+aplikasi server penuh, salin `images/`, `fonts/`, `icons/`, `portfolio.*`, dan
+`llms.txt` ke folder `public/` sebelum `npm run build`, atau gunakan proyek asli
+yang masih memiliki struktur `public/`.
+
+## 4. Opsi A — VPS Linux dengan Docker Compose (disarankan)
 
 ### 3.1 Persyaratan VPS
 

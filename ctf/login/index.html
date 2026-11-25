@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI CTF Intelligence — Akses laboratorium</title>
+  <meta name="description" content="AI CTF Intelligence adalah laboratorium keamanan siber interaktif yang memerlukan server untuk berjalan." />
+  <link rel="icon" href="/portofolio-dan-AI-crack-web-ilegal/icon.svg" />
+  <style>
+    :root { color-scheme: dark; --bg:#0b0b0f; --card:#131319; --line:#2a2a35; --ink:#f4f4f5; --muted:#a1a1aa; --accent:#8b5cf6; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.7; }
+    main { max-width:720px; margin:0 auto; padding:clamp(2rem,6vw,5rem) 1.25rem; }
+    .eyebrow { font:600 10px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); }
+    h1 { margin:.75rem 0 1rem; font-size:clamp(2rem,6vw,3.4rem); line-height:1.08; letter-spacing:-.04em; }
+    p { color:var(--muted); }
+    .card { margin-top:2rem; padding:1.5rem; border:1px solid var(--line); border-radius:1rem; background:var(--card); }
+    .note { border-left:3px solid var(--accent); padding-left:1rem; }
+    code { font:12px ui-monospace,SFMono-Regular,Menlo,monospace; background:#1c1c25; border:1px solid var(--line); border-radius:.4rem; padding:.15rem .4rem; }
+    .links { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:1.5rem; }
+    a.btn { display:inline-flex; align-items:center; gap:.5rem; padding:.7rem 1.1rem; border:1px solid var(--line); border-radius:999px; color:var(--ink); text-decoration:none; font-size:.85rem; }
+    a.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+    a.btn:hover { border-color:var(--accent); }
+    footer { margin-top:3rem; font-size:.75rem; color:#71717a; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">AI CTF Intelligence</p>
+    <h1>Laboratorium CTF butuh server, bukan GitHub Pages.</h1>
+    <p>
+      Halaman portofolio dipublikasikan di GitHub Pages sebagai situs statis. AI CTF
+      Intelligence adalah aplikasi penuh: memakai API, autentikasi berbasis cookie,
+      WebSocket untuk terminal, PostgreSQL, dan kontainer Docker untuk sandbox.
+      GitHub Pages hanya menyajikan HTML/CSS/JS, sehingga fitur-fitur itu tidak bisa
+      berjalan di sini.
+    </p>
+
+    <section class="card note">
+      <strong>Status di alamat ini:</strong> informasi akses. Untuk membuka laboratorium
+      lengkap, jalankan aplikasi di server/VPS atau di lokal dengan
+      <code>npm start</code>, lalu buka <code>http://localhost:3000/ctf/login</code>.
+    </section>
+
+    <div class="links">
+      <a class="btn primary" href="/portofolio-dan-AI-crack-web-ilegal/">Kembali ke portofolio</a>
+      <a class="btn" href="https://github.com/Vallozza15/portofolio-dan-AI-crack-web-ilegal/blob/main/DEPLOYMENT.md">Panduan deployment</a>
+      <a class="btn" href="https://github.com/Vallozza15/portofolio-dan-AI-crack-web-ilegal/blob/main/docs/CTF-INTELLIGENCE.md">Dokumentasi AI CTF</a>
+    </div>
+
+    <footer>
+      Sumber lengkap aplikasi AI CTF tersedia di repositori yang sama:
+      <code>src/app/ctf</code>, <code>src/app/api/ctf</code>, <code>server.ts</code>,
+      <code>backend/</code>, dan <code>docker/</code>.
+    </footer>
+  </main>
+</body>
+</html>

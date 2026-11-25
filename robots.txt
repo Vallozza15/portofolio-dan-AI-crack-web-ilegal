@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+Host: https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal
+Sitemap: https://vallozza15.github.io/portofolio-dan-AI-crack-web-ilegal/sitemap.xml

@@ -1,0 +1,8 @@
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/3_2x0k5j6x5cd.css","style"]
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/GeistMono_Variable.p.2vtemngyy8z-u.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/Geist_Variable-s.p.43azbxi7zpibd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/instrument_serif_italic-s.p.1bk2-9tco4m7m.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/media/instrument_serif_regular-s.p.3_vslfxq_--4i.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:[["children",{"s":"__PAGE__","h":128}]]
+1:[["children",{"s":"(site)","h":32,"c":"$Q2"}]]
+0:{"b":"o7iHH3gt76b96c8z2wnqk","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

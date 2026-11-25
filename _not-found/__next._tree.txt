@@ -1,0 +1,4 @@
+:HL["/portofolio-dan-AI-crack-web-ilegal/_next/static/chunks/3_2x0k5j6x5cd.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"o7iHH3gt76b96c8z2wnqk","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
